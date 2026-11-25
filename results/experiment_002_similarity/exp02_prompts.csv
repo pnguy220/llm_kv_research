@@ -1,0 +1,19 @@
+id,category,relation_to_anchor,text,appended_suffix,expected_answer,model_name,device,model_dtype
+multiply_anchor,equivalent,reference,Calculate 17 × 23.,"
+Answer:",391,Qwen/Qwen2.5-0.5B,cpu,torch.float32
+multiply_minor_wording,equivalent,minor_wording_change,Compute 17 × 23.,"
+Answer:",391,Qwen/Qwen2.5-0.5B,cpu,torch.float32
+multiply_product_paraphrase,equivalent,paraphrase,What is the product of 17 and 23?,"
+Answer:",391,Qwen/Qwen2.5-0.5B,cpu,torch.float32
+multiply_reversed_order,equivalent,reordered_operands,Multiply 23 by 17.,"
+Answer:",391,Qwen/Qwen2.5-0.5B,cpu,torch.float32
+multiply_story,equivalent,story_framing,Alice has 17 boxes containing 23 widgets each. How many widgets does she have?,"
+Answer:",391,Qwen/Qwen2.5-0.5B,cpu,torch.float32
+add_same_operands,hard_negative,same_operands_different_operation,Calculate 17 + 23.,"
+Answer:",40,Qwen/Qwen2.5-0.5B,cpu,torch.float32
+multiply_changed_operand,hard_negative,same_operation_changed_operand,Calculate 17 × 24.,"
+Answer:",408,Qwen/Qwen2.5-0.5B,cpu,torch.float32
+capital_of_japan,unrelated,unrelated_factual_question,What is the capital of Japan?,"
+Answer:",Tokyo,Qwen/Qwen2.5-0.5B,cpu,torch.float32
+days_in_week,unrelated,unrelated_counting_question,How many days are in a week?,"
+Answer:",7,Qwen/Qwen2.5-0.5B,cpu,torch.float32

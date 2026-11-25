@@ -1,0 +1,193 @@
+id,operation,operand_a,operand_b,wording,surface_form,text,appended_suffix,expected_answer
+add_24_3_calculate_symbol,add,24,3,calculate,symbol,Calculate 24 + 3.,"
+Answer:",27
+add_24_3_calculate_word,add,24,3,calculate,word,Calculate 24 plus 3.,"
+Answer:",27
+add_24_3_compute_symbol,add,24,3,compute,symbol,Compute 24 + 3.,"
+Answer:",27
+add_24_3_compute_word,add,24,3,compute,word,Compute 24 plus 3.,"
+Answer:",27
+add_24_3_question_symbol,add,24,3,question,symbol,What is 24 + 3?,"
+Answer:",27
+add_24_3_question_word,add,24,3,question,word,What is 24 plus 3?,"
+Answer:",27
+add_24_6_calculate_symbol,add,24,6,calculate,symbol,Calculate 24 + 6.,"
+Answer:",30
+add_24_6_calculate_word,add,24,6,calculate,word,Calculate 24 plus 6.,"
+Answer:",30
+add_24_6_compute_symbol,add,24,6,compute,symbol,Compute 24 + 6.,"
+Answer:",30
+add_24_6_compute_word,add,24,6,compute,word,Compute 24 plus 6.,"
+Answer:",30
+add_24_6_question_symbol,add,24,6,question,symbol,What is 24 + 6?,"
+Answer:",30
+add_24_6_question_word,add,24,6,question,word,What is 24 plus 6?,"
+Answer:",30
+add_36_3_calculate_symbol,add,36,3,calculate,symbol,Calculate 36 + 3.,"
+Answer:",39
+add_36_3_calculate_word,add,36,3,calculate,word,Calculate 36 plus 3.,"
+Answer:",39
+add_36_3_compute_symbol,add,36,3,compute,symbol,Compute 36 + 3.,"
+Answer:",39
+add_36_3_compute_word,add,36,3,compute,word,Compute 36 plus 3.,"
+Answer:",39
+add_36_3_question_symbol,add,36,3,question,symbol,What is 36 + 3?,"
+Answer:",39
+add_36_3_question_word,add,36,3,question,word,What is 36 plus 3?,"
+Answer:",39
+add_36_6_calculate_symbol,add,36,6,calculate,symbol,Calculate 36 + 6.,"
+Answer:",42
+add_36_6_calculate_word,add,36,6,calculate,word,Calculate 36 plus 6.,"
+Answer:",42
+add_36_6_compute_symbol,add,36,6,compute,symbol,Compute 36 + 6.,"
+Answer:",42
+add_36_6_compute_word,add,36,6,compute,word,Compute 36 plus 6.,"
+Answer:",42
+add_36_6_question_symbol,add,36,6,question,symbol,What is 36 + 6?,"
+Answer:",42
+add_36_6_question_word,add,36,6,question,word,What is 36 plus 6?,"
+Answer:",42
+subtract_24_3_calculate_symbol,subtract,24,3,calculate,symbol,Calculate 24 − 3.,"
+Answer:",21
+subtract_24_3_calculate_word,subtract,24,3,calculate,word,Calculate 24 minus 3.,"
+Answer:",21
+subtract_24_3_compute_symbol,subtract,24,3,compute,symbol,Compute 24 − 3.,"
+Answer:",21
+subtract_24_3_compute_word,subtract,24,3,compute,word,Compute 24 minus 3.,"
+Answer:",21
+subtract_24_3_question_symbol,subtract,24,3,question,symbol,What is 24 − 3?,"
+Answer:",21
+subtract_24_3_question_word,subtract,24,3,question,word,What is 24 minus 3?,"
+Answer:",21
+subtract_24_6_calculate_symbol,subtract,24,6,calculate,symbol,Calculate 24 − 6.,"
+Answer:",18
+subtract_24_6_calculate_word,subtract,24,6,calculate,word,Calculate 24 minus 6.,"
+Answer:",18
+subtract_24_6_compute_symbol,subtract,24,6,compute,symbol,Compute 24 − 6.,"
+Answer:",18
+subtract_24_6_compute_word,subtract,24,6,compute,word,Compute 24 minus 6.,"
+Answer:",18
+subtract_24_6_question_symbol,subtract,24,6,question,symbol,What is 24 − 6?,"
+Answer:",18
+subtract_24_6_question_word,subtract,24,6,question,word,What is 24 minus 6?,"
+Answer:",18
+subtract_36_3_calculate_symbol,subtract,36,3,calculate,symbol,Calculate 36 − 3.,"
+Answer:",33
+subtract_36_3_calculate_word,subtract,36,3,calculate,word,Calculate 36 minus 3.,"
+Answer:",33
+subtract_36_3_compute_symbol,subtract,36,3,compute,symbol,Compute 36 − 3.,"
+Answer:",33
+subtract_36_3_compute_word,subtract,36,3,compute,word,Compute 36 minus 3.,"
+Answer:",33
+subtract_36_3_question_symbol,subtract,36,3,question,symbol,What is 36 − 3?,"
+Answer:",33
+subtract_36_3_question_word,subtract,36,3,question,word,What is 36 minus 3?,"
+Answer:",33
+subtract_36_6_calculate_symbol,subtract,36,6,calculate,symbol,Calculate 36 − 6.,"
+Answer:",30
+subtract_36_6_calculate_word,subtract,36,6,calculate,word,Calculate 36 minus 6.,"
+Answer:",30
+subtract_36_6_compute_symbol,subtract,36,6,compute,symbol,Compute 36 − 6.,"
+Answer:",30
+subtract_36_6_compute_word,subtract,36,6,compute,word,Compute 36 minus 6.,"
+Answer:",30
+subtract_36_6_question_symbol,subtract,36,6,question,symbol,What is 36 − 6?,"
+Answer:",30
+subtract_36_6_question_word,subtract,36,6,question,word,What is 36 minus 6?,"
+Answer:",30
+multiply_24_3_calculate_symbol,multiply,24,3,calculate,symbol,Calculate 24 × 3.,"
+Answer:",72
+multiply_24_3_calculate_word,multiply,24,3,calculate,word,Calculate 24 times 3.,"
+Answer:",72
+multiply_24_3_compute_symbol,multiply,24,3,compute,symbol,Compute 24 × 3.,"
+Answer:",72
+multiply_24_3_compute_word,multiply,24,3,compute,word,Compute 24 times 3.,"
+Answer:",72
+multiply_24_3_question_symbol,multiply,24,3,question,symbol,What is 24 × 3?,"
+Answer:",72
+multiply_24_3_question_word,multiply,24,3,question,word,What is 24 times 3?,"
+Answer:",72
+multiply_24_6_calculate_symbol,multiply,24,6,calculate,symbol,Calculate 24 × 6.,"
+Answer:",144
+multiply_24_6_calculate_word,multiply,24,6,calculate,word,Calculate 24 times 6.,"
+Answer:",144
+multiply_24_6_compute_symbol,multiply,24,6,compute,symbol,Compute 24 × 6.,"
+Answer:",144
+multiply_24_6_compute_word,multiply,24,6,compute,word,Compute 24 times 6.,"
+Answer:",144
+multiply_24_6_question_symbol,multiply,24,6,question,symbol,What is 24 × 6?,"
+Answer:",144
+multiply_24_6_question_word,multiply,24,6,question,word,What is 24 times 6?,"
+Answer:",144
+multiply_36_3_calculate_symbol,multiply,36,3,calculate,symbol,Calculate 36 × 3.,"
+Answer:",108
+multiply_36_3_calculate_word,multiply,36,3,calculate,word,Calculate 36 times 3.,"
+Answer:",108
+multiply_36_3_compute_symbol,multiply,36,3,compute,symbol,Compute 36 × 3.,"
+Answer:",108
+multiply_36_3_compute_word,multiply,36,3,compute,word,Compute 36 times 3.,"
+Answer:",108
+multiply_36_3_question_symbol,multiply,36,3,question,symbol,What is 36 × 3?,"
+Answer:",108
+multiply_36_3_question_word,multiply,36,3,question,word,What is 36 times 3?,"
+Answer:",108
+multiply_36_6_calculate_symbol,multiply,36,6,calculate,symbol,Calculate 36 × 6.,"
+Answer:",216
+multiply_36_6_calculate_word,multiply,36,6,calculate,word,Calculate 36 times 6.,"
+Answer:",216
+multiply_36_6_compute_symbol,multiply,36,6,compute,symbol,Compute 36 × 6.,"
+Answer:",216
+multiply_36_6_compute_word,multiply,36,6,compute,word,Compute 36 times 6.,"
+Answer:",216
+multiply_36_6_question_symbol,multiply,36,6,question,symbol,What is 36 × 6?,"
+Answer:",216
+multiply_36_6_question_word,multiply,36,6,question,word,What is 36 times 6?,"
+Answer:",216
+divide_24_3_calculate_symbol,divide,24,3,calculate,symbol,Calculate 24 ÷ 3.,"
+Answer:",8
+divide_24_3_calculate_word,divide,24,3,calculate,word,Calculate 24 divided by 3.,"
+Answer:",8
+divide_24_3_compute_symbol,divide,24,3,compute,symbol,Compute 24 ÷ 3.,"
+Answer:",8
+divide_24_3_compute_word,divide,24,3,compute,word,Compute 24 divided by 3.,"
+Answer:",8
+divide_24_3_question_symbol,divide,24,3,question,symbol,What is 24 ÷ 3?,"
+Answer:",8
+divide_24_3_question_word,divide,24,3,question,word,What is 24 divided by 3?,"
+Answer:",8
+divide_24_6_calculate_symbol,divide,24,6,calculate,symbol,Calculate 24 ÷ 6.,"
+Answer:",4
+divide_24_6_calculate_word,divide,24,6,calculate,word,Calculate 24 divided by 6.,"
+Answer:",4
+divide_24_6_compute_symbol,divide,24,6,compute,symbol,Compute 24 ÷ 6.,"
+Answer:",4
+divide_24_6_compute_word,divide,24,6,compute,word,Compute 24 divided by 6.,"
+Answer:",4
+divide_24_6_question_symbol,divide,24,6,question,symbol,What is 24 ÷ 6?,"
+Answer:",4
+divide_24_6_question_word,divide,24,6,question,word,What is 24 divided by 6?,"
+Answer:",4
+divide_36_3_calculate_symbol,divide,36,3,calculate,symbol,Calculate 36 ÷ 3.,"
+Answer:",12
+divide_36_3_calculate_word,divide,36,3,calculate,word,Calculate 36 divided by 3.,"
+Answer:",12
+divide_36_3_compute_symbol,divide,36,3,compute,symbol,Compute 36 ÷ 3.,"
+Answer:",12
+divide_36_3_compute_word,divide,36,3,compute,word,Compute 36 divided by 3.,"
+Answer:",12
+divide_36_3_question_symbol,divide,36,3,question,symbol,What is 36 ÷ 3?,"
+Answer:",12
+divide_36_3_question_word,divide,36,3,question,word,What is 36 divided by 3?,"
+Answer:",12
+divide_36_6_calculate_symbol,divide,36,6,calculate,symbol,Calculate 36 ÷ 6.,"
+Answer:",6
+divide_36_6_calculate_word,divide,36,6,calculate,word,Calculate 36 divided by 6.,"
+Answer:",6
+divide_36_6_compute_symbol,divide,36,6,compute,symbol,Compute 36 ÷ 6.,"
+Answer:",6
+divide_36_6_compute_word,divide,36,6,compute,word,Compute 36 divided by 6.,"
+Answer:",6
+divide_36_6_question_symbol,divide,36,6,question,symbol,What is 36 ÷ 6?,"
+Answer:",6
+divide_36_6_question_word,divide,36,6,question,word,What is 36 divided by 6?,"
+Answer:",6

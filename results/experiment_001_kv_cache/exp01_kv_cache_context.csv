@@ -1,0 +1,5 @@
+context_tokens,batch_size,num_layers,num_kv_heads,head_dim,model_dtype,cache_dtype,bytes_per_element,expected_bytes_per_token,expected_kv_bytes,actual_kv_bytes,difference_bytes,matches
+5,1,24,2,64,torch.float16,torch.float16,2,12288,61440,61440,0,True
+10,1,24,2,64,torch.float16,torch.float16,2,12288,122880,122880,0,True
+20,1,24,2,64,torch.float16,torch.float16,2,12288,245760,245760,0,True
+40,1,24,2,64,torch.float16,torch.float16,2,12288,491520,491520,0,True

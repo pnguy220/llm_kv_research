@@ -1,0 +1,51 @@
+id,target_id,role,category,relation,text,appended_suffix,computation_span,expected_answer
+multiply_17_23_reference,multiply_17_23,reference,reference,canonical_arithmetic_prompt,Calculate 17 × 23.,"
+Answer:",17 × 23,391
+multiply_17_23_equivalent_1,multiply_17_23,equivalent,equivalent,equivalent_variant,Compute 17 × 23.,"
+Answer:",,391
+multiply_17_23_equivalent_2,multiply_17_23,equivalent,equivalent,equivalent_variant,What is the product of 17 and 23?,"
+Answer:",,391
+multiply_17_23_hard_negative_1,multiply_17_23,hard_negative,hard_negative,changed_operation_or_operand,Calculate 17 + 23.,"
+Answer:",,40
+multiply_17_23_hard_negative_2,multiply_17_23,hard_negative,hard_negative,changed_operation_or_operand,Calculate 17 × 24.,"
+Answer:",,408
+unrelated_capital_japan,,unrelated_control,unrelated,unrelated_baseline,What is the capital of Japan?,"
+Answer:",,Tokyo
+unrelated_days_week,,unrelated_control,unrelated,unrelated_baseline,How many days are in a week?,"
+Answer:",,7
+add_12_19_reference,add_12_19,reference,reference,canonical_arithmetic_prompt,Calculate 12 + 19.,"
+Answer:",12 + 19,31
+add_12_19_equivalent_1,add_12_19,equivalent,equivalent,equivalent_variant,Compute 12 + 19.,"
+Answer:",,31
+add_12_19_equivalent_2,add_12_19,equivalent,equivalent,equivalent_variant,What is the sum of 12 and 19?,"
+Answer:",,31
+add_12_19_hard_negative_1,add_12_19,hard_negative,hard_negative,changed_operation_or_operand,Calculate 12 × 19.,"
+Answer:",,228
+add_12_19_hard_negative_2,add_12_19,hard_negative,hard_negative,changed_operation_or_operand,Calculate 12 + 20.,"
+Answer:",,32
+subtract_46_18_reference,subtract_46_18,reference,reference,canonical_arithmetic_prompt,Calculate 46 − 18.,"
+Answer:",46 − 18,28
+subtract_46_18_equivalent_1,subtract_46_18,equivalent,equivalent,equivalent_variant,Compute 46 − 18.,"
+Answer:",,28
+subtract_46_18_equivalent_2,subtract_46_18,equivalent,equivalent,equivalent_variant,What is 18 subtracted from 46?,"
+Answer:",,28
+subtract_46_18_hard_negative_1,subtract_46_18,hard_negative,hard_negative,changed_operation_or_operand,Calculate 46 + 18.,"
+Answer:",,64
+subtract_46_18_hard_negative_2,subtract_46_18,hard_negative,hard_negative,changed_operation_or_operand,Calculate 46 − 19.,"
+Answer:",,27
+multiply_14_16_reference,multiply_14_16,reference,reference,canonical_arithmetic_prompt,Calculate 14 × 16.,"
+Answer:",14 × 16,224
+multiply_14_16_equivalent_1,multiply_14_16,equivalent,equivalent,equivalent_variant,Compute 14 × 16.,"
+Answer:",,224
+multiply_14_16_equivalent_2,multiply_14_16,equivalent,equivalent,equivalent_variant,What is the product of 14 and 16?,"
+Answer:",,224
+multiply_14_16_hard_negative_1,multiply_14_16,hard_negative,hard_negative,changed_operation_or_operand,Calculate 14 + 16.,"
+Answer:",,30
+multiply_14_16_hard_negative_2,multiply_14_16,hard_negative,hard_negative,changed_operation_or_operand,Calculate 14 × 17.,"
+Answer:",,238
+multiply_17_23_story,multiply_17_23,story_or_embedded_problem,equivalent,story_framing_same_computation,Alice has 17 boxes containing 23 widgets each. How many widgets does she have?,"
+Answer:",17 boxes containing 23 widgets each,391
+multiply_17_23_plus_12,multiply_17_23,story_or_embedded_problem,embedded_full_prompt,same_multiplication_then_add_12,Alice has 17 boxes containing 23 widgets each and receives 12 more widgets. How many widgets does she have in total?,"
+Answer:",17 boxes containing 23 widgets each,403
+multiply_17_23_minus_12,multiply_17_23,story_or_embedded_problem,embedded_full_prompt,same_multiplication_then_subtract_12,Alice has 17 boxes containing 23 widgets each. She gives away 12 widgets. How many does she have left?,"
+Answer:",17 boxes containing 23 widgets each,379

@@ -1,0 +1,2129 @@
+split,operand_a,operand_b,operation,label,style,text,operation_cue_token,operand_a_token,operand_b_token,selected_positions
+train,6,8,add,0,symbolic,"Calculate 6 + 8.
+Answer:",Ġ+,6,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,6,8,multiply,1,symbolic,"Calculate 6 × 8.
+Answer:",ĠÃĹ,6,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,12,17,add,0,symbolic,"Calculate 12 + 17.
+Answer:",Ġ+,2,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,12,17,multiply,1,symbolic,"Calculate 12 × 17.
+Answer:",ĠÃĹ,2,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,13,6,add,0,symbolic,"Calculate 13 + 6.
+Answer:",Ġ+,3,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,13,6,multiply,1,symbolic,"Calculate 13 × 6.
+Answer:",ĠÃĹ,3,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,8,16,add,0,symbolic,"Calculate 8 + 16.
+Answer:",Ġ+,8,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,8,16,multiply,1,symbolic,"Calculate 8 × 16.
+Answer:",ĠÃĹ,8,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,15,6,add,0,symbolic,"Calculate 15 + 6.
+Answer:",Ġ+,5,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,15,6,multiply,1,symbolic,"Calculate 15 × 6.
+Answer:",ĠÃĹ,5,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,2,9,add,0,symbolic,"Calculate 2 + 9.
+Answer:",Ġ+,2,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,2,9,multiply,1,symbolic,"Calculate 2 × 9.
+Answer:",ĠÃĹ,2,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,8,21,add,0,symbolic,"Calculate 8 + 21.
+Answer:",Ġ+,8,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,8,21,multiply,1,symbolic,"Calculate 8 × 21.
+Answer:",ĠÃĹ,8,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,17,16,add,0,symbolic,"Calculate 17 + 16.
+Answer:",Ġ+,7,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,17,16,multiply,1,symbolic,"Calculate 17 × 16.
+Answer:",ĠÃĹ,7,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,10,18,add,0,symbolic,"Calculate 10 + 18.
+Answer:",Ġ+,0,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,10,18,multiply,1,symbolic,"Calculate 10 × 18.
+Answer:",ĠÃĹ,0,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,3,5,add,0,symbolic,"Calculate 3 + 5.
+Answer:",Ġ+,3,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,3,5,multiply,1,symbolic,"Calculate 3 × 5.
+Answer:",ĠÃĹ,3,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,15,3,add,0,symbolic,"Calculate 15 + 3.
+Answer:",Ġ+,5,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,15,3,multiply,1,symbolic,"Calculate 15 × 3.
+Answer:",ĠÃĹ,5,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,11,8,add,0,symbolic,"Calculate 11 + 8.
+Answer:",Ġ+,1,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,11,8,multiply,1,symbolic,"Calculate 11 × 8.
+Answer:",ĠÃĹ,1,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,15,7,add,0,symbolic,"Calculate 15 + 7.
+Answer:",Ġ+,5,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,15,7,multiply,1,symbolic,"Calculate 15 × 7.
+Answer:",ĠÃĹ,5,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,16,8,add,0,symbolic,"Calculate 16 + 8.
+Answer:",Ġ+,6,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,16,8,multiply,1,symbolic,"Calculate 16 × 8.
+Answer:",ĠÃĹ,6,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,8,3,add,0,symbolic,"Calculate 8 + 3.
+Answer:",Ġ+,8,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,8,3,multiply,1,symbolic,"Calculate 8 × 3.
+Answer:",ĠÃĹ,8,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,3,10,add,0,symbolic,"Calculate 3 + 10.
+Answer:",Ġ+,3,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,3,10,multiply,1,symbolic,"Calculate 3 × 10.
+Answer:",ĠÃĹ,3,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,2,16,add,0,symbolic,"Calculate 2 + 16.
+Answer:",Ġ+,2,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,2,16,multiply,1,symbolic,"Calculate 2 × 16.
+Answer:",ĠÃĹ,2,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,18,14,add,0,symbolic,"Calculate 18 + 14.
+Answer:",Ġ+,8,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,18,14,multiply,1,symbolic,"Calculate 18 × 14.
+Answer:",ĠÃĹ,8,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,8,9,add,0,symbolic,"Calculate 8 + 9.
+Answer:",Ġ+,8,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,8,9,multiply,1,symbolic,"Calculate 8 × 9.
+Answer:",ĠÃĹ,8,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,19,3,add,0,symbolic,"Calculate 19 + 3.
+Answer:",Ġ+,9,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,19,3,multiply,1,symbolic,"Calculate 19 × 3.
+Answer:",ĠÃĹ,9,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,14,11,add,0,symbolic,"Calculate 14 + 11.
+Answer:",Ġ+,4,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,14,11,multiply,1,symbolic,"Calculate 14 × 11.
+Answer:",ĠÃĹ,4,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,15,21,add,0,symbolic,"Calculate 15 + 21.
+Answer:",Ġ+,5,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,15,21,multiply,1,symbolic,"Calculate 15 × 21.
+Answer:",ĠÃĹ,5,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,20,2,add,0,symbolic,"Calculate 20 + 2.
+Answer:",Ġ+,0,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,20,2,multiply,1,symbolic,"Calculate 20 × 2.
+Answer:",ĠÃĹ,0,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,8,12,add,0,symbolic,"Calculate 8 + 12.
+Answer:",Ġ+,8,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,8,12,multiply,1,symbolic,"Calculate 8 × 12.
+Answer:",ĠÃĹ,8,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,18,4,add,0,symbolic,"Calculate 18 + 4.
+Answer:",Ġ+,8,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,18,4,multiply,1,symbolic,"Calculate 18 × 4.
+Answer:",ĠÃĹ,8,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,13,18,add,0,symbolic,"Calculate 13 + 18.
+Answer:",Ġ+,3,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,13,18,multiply,1,symbolic,"Calculate 13 × 18.
+Answer:",ĠÃĹ,3,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,21,9,add,0,symbolic,"Calculate 21 + 9.
+Answer:",Ġ+,1,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,21,9,multiply,1,symbolic,"Calculate 21 × 9.
+Answer:",ĠÃĹ,1,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,4,17,add,0,symbolic,"Calculate 4 + 17.
+Answer:",Ġ+,4,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,4,17,multiply,1,symbolic,"Calculate 4 × 17.
+Answer:",ĠÃĹ,4,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,7,19,add,0,symbolic,"Calculate 7 + 19.
+Answer:",Ġ+,7,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,7,19,multiply,1,symbolic,"Calculate 7 × 19.
+Answer:",ĠÃĹ,7,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,16,18,add,0,symbolic,"Calculate 16 + 18.
+Answer:",Ġ+,6,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,16,18,multiply,1,symbolic,"Calculate 16 × 18.
+Answer:",ĠÃĹ,6,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,3,8,add,0,symbolic,"Calculate 3 + 8.
+Answer:",Ġ+,3,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,3,8,multiply,1,symbolic,"Calculate 3 × 8.
+Answer:",ĠÃĹ,3,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,14,6,add,0,symbolic,"Calculate 14 + 6.
+Answer:",Ġ+,4,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,14,6,multiply,1,symbolic,"Calculate 14 × 6.
+Answer:",ĠÃĹ,4,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,15,16,add,0,symbolic,"Calculate 15 + 16.
+Answer:",Ġ+,5,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,15,16,multiply,1,symbolic,"Calculate 15 × 16.
+Answer:",ĠÃĹ,5,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,8,13,add,0,symbolic,"Calculate 8 + 13.
+Answer:",Ġ+,8,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,8,13,multiply,1,symbolic,"Calculate 8 × 13.
+Answer:",ĠÃĹ,8,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,12,11,add,0,symbolic,"Calculate 12 + 11.
+Answer:",Ġ+,2,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,12,11,multiply,1,symbolic,"Calculate 12 × 11.
+Answer:",ĠÃĹ,2,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,17,7,add,0,symbolic,"Calculate 17 + 7.
+Answer:",Ġ+,7,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,17,7,multiply,1,symbolic,"Calculate 17 × 7.
+Answer:",ĠÃĹ,7,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,13,4,add,0,symbolic,"Calculate 13 + 4.
+Answer:",Ġ+,3,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,13,4,multiply,1,symbolic,"Calculate 13 × 4.
+Answer:",ĠÃĹ,3,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,7,21,add,0,symbolic,"Calculate 7 + 21.
+Answer:",Ġ+,7,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,7,21,multiply,1,symbolic,"Calculate 7 × 21.
+Answer:",ĠÃĹ,7,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,3,16,add,0,symbolic,"Calculate 3 + 16.
+Answer:",Ġ+,3,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,3,16,multiply,1,symbolic,"Calculate 3 × 16.
+Answer:",ĠÃĹ,3,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,4,11,add,0,symbolic,"Calculate 4 + 11.
+Answer:",Ġ+,4,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,4,11,multiply,1,symbolic,"Calculate 4 × 11.
+Answer:",ĠÃĹ,4,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,16,21,add,0,symbolic,"Calculate 16 + 21.
+Answer:",Ġ+,6,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,16,21,multiply,1,symbolic,"Calculate 16 × 21.
+Answer:",ĠÃĹ,6,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,10,7,add,0,symbolic,"Calculate 10 + 7.
+Answer:",Ġ+,0,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,10,7,multiply,1,symbolic,"Calculate 10 × 7.
+Answer:",ĠÃĹ,0,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,21,15,add,0,symbolic,"Calculate 21 + 15.
+Answer:",Ġ+,1,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,21,15,multiply,1,symbolic,"Calculate 21 × 15.
+Answer:",ĠÃĹ,1,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,15,14,add,0,symbolic,"Calculate 15 + 14.
+Answer:",Ġ+,5,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,15,14,multiply,1,symbolic,"Calculate 15 × 14.
+Answer:",ĠÃĹ,5,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,5,9,add,0,symbolic,"Calculate 5 + 9.
+Answer:",Ġ+,5,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,5,9,multiply,1,symbolic,"Calculate 5 × 9.
+Answer:",ĠÃĹ,5,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,3,19,add,0,symbolic,"Calculate 3 + 19.
+Answer:",Ġ+,3,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,3,19,multiply,1,symbolic,"Calculate 3 × 19.
+Answer:",ĠÃĹ,3,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,15,12,add,0,symbolic,"Calculate 15 + 12.
+Answer:",Ġ+,5,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,15,12,multiply,1,symbolic,"Calculate 15 × 12.
+Answer:",ĠÃĹ,5,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,17,5,add,0,symbolic,"Calculate 17 + 5.
+Answer:",Ġ+,7,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,17,5,multiply,1,symbolic,"Calculate 17 × 5.
+Answer:",ĠÃĹ,7,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,13,7,add,0,symbolic,"Calculate 13 + 7.
+Answer:",Ġ+,3,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,13,7,multiply,1,symbolic,"Calculate 13 × 7.
+Answer:",ĠÃĹ,3,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,6,10,add,0,symbolic,"Calculate 6 + 10.
+Answer:",Ġ+,6,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,6,10,multiply,1,symbolic,"Calculate 6 × 10.
+Answer:",ĠÃĹ,6,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,16,20,add,0,symbolic,"Calculate 16 + 20.
+Answer:",Ġ+,6,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,16,20,multiply,1,symbolic,"Calculate 16 × 20.
+Answer:",ĠÃĹ,6,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,10,20,add,0,symbolic,"Calculate 10 + 20.
+Answer:",Ġ+,0,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,10,20,multiply,1,symbolic,"Calculate 10 × 20.
+Answer:",ĠÃĹ,0,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,16,7,add,0,symbolic,"Calculate 16 + 7.
+Answer:",Ġ+,6,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,16,7,multiply,1,symbolic,"Calculate 16 × 7.
+Answer:",ĠÃĹ,6,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,8,11,add,0,symbolic,"Calculate 8 + 11.
+Answer:",Ġ+,8,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,8,11,multiply,1,symbolic,"Calculate 8 × 11.
+Answer:",ĠÃĹ,8,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,4,10,add,0,symbolic,"Calculate 4 + 10.
+Answer:",Ġ+,4,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,4,10,multiply,1,symbolic,"Calculate 4 × 10.
+Answer:",ĠÃĹ,4,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,5,15,add,0,symbolic,"Calculate 5 + 15.
+Answer:",Ġ+,5,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,5,15,multiply,1,symbolic,"Calculate 5 × 15.
+Answer:",ĠÃĹ,5,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,16,9,add,0,symbolic,"Calculate 16 + 9.
+Answer:",Ġ+,6,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,16,9,multiply,1,symbolic,"Calculate 16 × 9.
+Answer:",ĠÃĹ,6,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,6,9,add,0,symbolic,"Calculate 6 + 9.
+Answer:",Ġ+,6,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,6,9,multiply,1,symbolic,"Calculate 6 × 9.
+Answer:",ĠÃĹ,6,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,20,5,add,0,symbolic,"Calculate 20 + 5.
+Answer:",Ġ+,0,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,20,5,multiply,1,symbolic,"Calculate 20 × 5.
+Answer:",ĠÃĹ,0,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,14,9,add,0,symbolic,"Calculate 14 + 9.
+Answer:",Ġ+,4,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,14,9,multiply,1,symbolic,"Calculate 14 × 9.
+Answer:",ĠÃĹ,4,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,19,2,add,0,symbolic,"Calculate 19 + 2.
+Answer:",Ġ+,9,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,19,2,multiply,1,symbolic,"Calculate 19 × 2.
+Answer:",ĠÃĹ,9,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,2,20,add,0,symbolic,"Calculate 2 + 20.
+Answer:",Ġ+,2,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,2,20,multiply,1,symbolic,"Calculate 2 × 20.
+Answer:",ĠÃĹ,2,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,8,17,add,0,symbolic,"Calculate 8 + 17.
+Answer:",Ġ+,8,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,8,17,multiply,1,symbolic,"Calculate 8 × 17.
+Answer:",ĠÃĹ,8,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,12,10,add,0,symbolic,"Calculate 12 + 10.
+Answer:",Ġ+,2,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,12,10,multiply,1,symbolic,"Calculate 12 × 10.
+Answer:",ĠÃĹ,2,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,14,2,add,0,symbolic,"Calculate 14 + 2.
+Answer:",Ġ+,4,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,14,2,multiply,1,symbolic,"Calculate 14 × 2.
+Answer:",ĠÃĹ,4,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,21,5,add,0,symbolic,"Calculate 21 + 5.
+Answer:",Ġ+,1,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,21,5,multiply,1,symbolic,"Calculate 21 × 5.
+Answer:",ĠÃĹ,1,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,15,19,add,0,symbolic,"Calculate 15 + 19.
+Answer:",Ġ+,5,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,15,19,multiply,1,symbolic,"Calculate 15 × 19.
+Answer:",ĠÃĹ,5,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,2,5,add,0,symbolic,"Calculate 2 + 5.
+Answer:",Ġ+,2,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,2,5,multiply,1,symbolic,"Calculate 2 × 5.
+Answer:",ĠÃĹ,2,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,20,11,add,0,symbolic,"Calculate 20 + 11.
+Answer:",Ġ+,0,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,20,11,multiply,1,symbolic,"Calculate 20 × 11.
+Answer:",ĠÃĹ,0,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,17,3,add,0,symbolic,"Calculate 17 + 3.
+Answer:",Ġ+,7,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,17,3,multiply,1,symbolic,"Calculate 17 × 3.
+Answer:",ĠÃĹ,7,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,16,13,add,0,symbolic,"Calculate 16 + 13.
+Answer:",Ġ+,6,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,16,13,multiply,1,symbolic,"Calculate 16 × 13.
+Answer:",ĠÃĹ,6,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,2,3,add,0,symbolic,"Calculate 2 + 3.
+Answer:",Ġ+,2,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,2,3,multiply,1,symbolic,"Calculate 2 × 3.
+Answer:",ĠÃĹ,2,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,5,13,add,0,symbolic,"Calculate 5 + 13.
+Answer:",Ġ+,5,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,5,13,multiply,1,symbolic,"Calculate 5 × 13.
+Answer:",ĠÃĹ,5,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,7,18,add,0,symbolic,"Calculate 7 + 18.
+Answer:",Ġ+,7,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,7,18,multiply,1,symbolic,"Calculate 7 × 18.
+Answer:",ĠÃĹ,7,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,12,21,add,0,symbolic,"Calculate 12 + 21.
+Answer:",Ġ+,2,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,12,21,multiply,1,symbolic,"Calculate 12 × 21.
+Answer:",ĠÃĹ,2,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,15,9,add,0,symbolic,"Calculate 15 + 9.
+Answer:",Ġ+,5,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,15,9,multiply,1,symbolic,"Calculate 15 × 9.
+Answer:",ĠÃĹ,5,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,11,16,add,0,symbolic,"Calculate 11 + 16.
+Answer:",Ġ+,1,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,11,16,multiply,1,symbolic,"Calculate 11 × 16.
+Answer:",ĠÃĹ,1,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,19,21,add,0,symbolic,"Calculate 19 + 21.
+Answer:",Ġ+,9,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,19,21,multiply,1,symbolic,"Calculate 19 × 21.
+Answer:",ĠÃĹ,9,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,20,9,add,0,symbolic,"Calculate 20 + 9.
+Answer:",Ġ+,0,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,20,9,multiply,1,symbolic,"Calculate 20 × 9.
+Answer:",ĠÃĹ,0,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,20,21,add,0,symbolic,"Calculate 20 + 21.
+Answer:",Ġ+,0,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,20,21,multiply,1,symbolic,"Calculate 20 × 21.
+Answer:",ĠÃĹ,0,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,15,11,add,0,symbolic,"Calculate 15 + 11.
+Answer:",Ġ+,5,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,15,11,multiply,1,symbolic,"Calculate 15 × 11.
+Answer:",ĠÃĹ,5,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,10,16,add,0,symbolic,"Calculate 10 + 16.
+Answer:",Ġ+,0,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,10,16,multiply,1,symbolic,"Calculate 10 × 16.
+Answer:",ĠÃĹ,0,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,10,19,add,0,symbolic,"Calculate 10 + 19.
+Answer:",Ġ+,0,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,10,19,multiply,1,symbolic,"Calculate 10 × 19.
+Answer:",ĠÃĹ,0,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,2,13,add,0,symbolic,"Calculate 2 + 13.
+Answer:",Ġ+,2,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,2,13,multiply,1,symbolic,"Calculate 2 × 13.
+Answer:",ĠÃĹ,2,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,12,7,add,0,symbolic,"Calculate 12 + 7.
+Answer:",Ġ+,2,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,12,7,multiply,1,symbolic,"Calculate 12 × 7.
+Answer:",ĠÃĹ,2,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,9,19,add,0,symbolic,"Calculate 9 + 19.
+Answer:",Ġ+,9,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,9,19,multiply,1,symbolic,"Calculate 9 × 19.
+Answer:",ĠÃĹ,9,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,17,2,add,0,symbolic,"Calculate 17 + 2.
+Answer:",Ġ+,7,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,17,2,multiply,1,symbolic,"Calculate 17 × 2.
+Answer:",ĠÃĹ,7,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,14,17,add,0,symbolic,"Calculate 14 + 17.
+Answer:",Ġ+,4,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,14,17,multiply,1,symbolic,"Calculate 14 × 17.
+Answer:",ĠÃĹ,4,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,2,8,add,0,symbolic,"Calculate 2 + 8.
+Answer:",Ġ+,2,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,2,8,multiply,1,symbolic,"Calculate 2 × 8.
+Answer:",ĠÃĹ,2,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,14,7,add,0,symbolic,"Calculate 14 + 7.
+Answer:",Ġ+,4,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,14,7,multiply,1,symbolic,"Calculate 14 × 7.
+Answer:",ĠÃĹ,4,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,7,14,add,0,symbolic,"Calculate 7 + 14.
+Answer:",Ġ+,7,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,7,14,multiply,1,symbolic,"Calculate 7 × 14.
+Answer:",ĠÃĹ,7,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,17,18,add,0,symbolic,"Calculate 17 + 18.
+Answer:",Ġ+,7,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,17,18,multiply,1,symbolic,"Calculate 17 × 18.
+Answer:",ĠÃĹ,7,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,3,17,add,0,symbolic,"Calculate 3 + 17.
+Answer:",Ġ+,3,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,3,17,multiply,1,symbolic,"Calculate 3 × 17.
+Answer:",ĠÃĹ,3,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,4,9,add,0,symbolic,"Calculate 4 + 9.
+Answer:",Ġ+,4,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,4,9,multiply,1,symbolic,"Calculate 4 × 9.
+Answer:",ĠÃĹ,4,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,14,15,add,0,symbolic,"Calculate 14 + 15.
+Answer:",Ġ+,4,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,14,15,multiply,1,symbolic,"Calculate 14 × 15.
+Answer:",ĠÃĹ,4,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,4,19,add,0,symbolic,"Calculate 4 + 19.
+Answer:",Ġ+,4,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,4,19,multiply,1,symbolic,"Calculate 4 × 19.
+Answer:",ĠÃĹ,4,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,18,20,add,0,symbolic,"Calculate 18 + 20.
+Answer:",Ġ+,8,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,18,20,multiply,1,symbolic,"Calculate 18 × 20.
+Answer:",ĠÃĹ,8,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,9,2,add,0,symbolic,"Calculate 9 + 2.
+Answer:",Ġ+,9,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,9,2,multiply,1,symbolic,"Calculate 9 × 2.
+Answer:",ĠÃĹ,9,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,7,4,add,0,symbolic,"Calculate 7 + 4.
+Answer:",Ġ+,7,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,7,4,multiply,1,symbolic,"Calculate 7 × 4.
+Answer:",ĠÃĹ,7,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,6,11,add,0,symbolic,"Calculate 6 + 11.
+Answer:",Ġ+,6,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,6,11,multiply,1,symbolic,"Calculate 6 × 11.
+Answer:",ĠÃĹ,6,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,6,4,add,0,symbolic,"Calculate 6 + 4.
+Answer:",Ġ+,6,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,6,4,multiply,1,symbolic,"Calculate 6 × 4.
+Answer:",ĠÃĹ,6,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,5,4,add,0,symbolic,"Calculate 5 + 4.
+Answer:",Ġ+,5,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,5,4,multiply,1,symbolic,"Calculate 5 × 4.
+Answer:",ĠÃĹ,5,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,3,7,add,0,symbolic,"Calculate 3 + 7.
+Answer:",Ġ+,3,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,3,7,multiply,1,symbolic,"Calculate 3 × 7.
+Answer:",ĠÃĹ,3,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,12,13,add,0,symbolic,"Calculate 12 + 13.
+Answer:",Ġ+,2,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,12,13,multiply,1,symbolic,"Calculate 12 × 13.
+Answer:",ĠÃĹ,2,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,7,16,add,0,symbolic,"Calculate 7 + 16.
+Answer:",Ġ+,7,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,7,16,multiply,1,symbolic,"Calculate 7 × 16.
+Answer:",ĠÃĹ,7,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,13,10,add,0,symbolic,"Calculate 13 + 10.
+Answer:",Ġ+,3,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,13,10,multiply,1,symbolic,"Calculate 13 × 10.
+Answer:",ĠÃĹ,3,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,7,12,add,0,symbolic,"Calculate 7 + 12.
+Answer:",Ġ+,7,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,7,12,multiply,1,symbolic,"Calculate 7 × 12.
+Answer:",ĠÃĹ,7,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,18,7,add,0,symbolic,"Calculate 18 + 7.
+Answer:",Ġ+,8,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,18,7,multiply,1,symbolic,"Calculate 18 × 7.
+Answer:",ĠÃĹ,8,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,18,11,add,0,symbolic,"Calculate 18 + 11.
+Answer:",Ġ+,8,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,18,11,multiply,1,symbolic,"Calculate 18 × 11.
+Answer:",ĠÃĹ,8,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,2,15,add,0,symbolic,"Calculate 2 + 15.
+Answer:",Ġ+,2,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,2,15,multiply,1,symbolic,"Calculate 2 × 15.
+Answer:",ĠÃĹ,2,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,18,21,add,0,symbolic,"Calculate 18 + 21.
+Answer:",Ġ+,8,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,18,21,multiply,1,symbolic,"Calculate 18 × 21.
+Answer:",ĠÃĹ,8,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,6,3,add,0,symbolic,"Calculate 6 + 3.
+Answer:",Ġ+,6,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,6,3,multiply,1,symbolic,"Calculate 6 × 3.
+Answer:",ĠÃĹ,6,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,13,12,add,0,symbolic,"Calculate 13 + 12.
+Answer:",Ġ+,3,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,13,12,multiply,1,symbolic,"Calculate 13 × 12.
+Answer:",ĠÃĹ,3,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,13,16,add,0,symbolic,"Calculate 13 + 16.
+Answer:",Ġ+,3,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,13,16,multiply,1,symbolic,"Calculate 13 × 16.
+Answer:",ĠÃĹ,3,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,19,5,add,0,symbolic,"Calculate 19 + 5.
+Answer:",Ġ+,9,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,19,5,multiply,1,symbolic,"Calculate 19 × 5.
+Answer:",ĠÃĹ,9,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,20,14,add,0,symbolic,"Calculate 20 + 14.
+Answer:",Ġ+,0,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,20,14,multiply,1,symbolic,"Calculate 20 × 14.
+Answer:",ĠÃĹ,0,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,19,14,add,0,symbolic,"Calculate 19 + 14.
+Answer:",Ġ+,9,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,19,14,multiply,1,symbolic,"Calculate 19 × 14.
+Answer:",ĠÃĹ,9,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,20,10,add,0,symbolic,"Calculate 20 + 10.
+Answer:",Ġ+,0,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,20,10,multiply,1,symbolic,"Calculate 20 × 10.
+Answer:",ĠÃĹ,0,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,6,18,add,0,symbolic,"Calculate 6 + 18.
+Answer:",Ġ+,6,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,6,18,multiply,1,symbolic,"Calculate 6 × 18.
+Answer:",ĠÃĹ,6,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,4,7,add,0,symbolic,"Calculate 4 + 7.
+Answer:",Ġ+,4,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,4,7,multiply,1,symbolic,"Calculate 4 × 7.
+Answer:",ĠÃĹ,4,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,13,14,add,0,symbolic,"Calculate 13 + 14.
+Answer:",Ġ+,3,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,13,14,multiply,1,symbolic,"Calculate 13 × 14.
+Answer:",ĠÃĹ,3,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,19,4,add,0,symbolic,"Calculate 19 + 4.
+Answer:",Ġ+,9,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,19,4,multiply,1,symbolic,"Calculate 19 × 4.
+Answer:",ĠÃĹ,9,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,15,5,add,0,symbolic,"Calculate 15 + 5.
+Answer:",Ġ+,5,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,15,5,multiply,1,symbolic,"Calculate 15 × 5.
+Answer:",ĠÃĹ,5,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,21,18,add,0,symbolic,"Calculate 21 + 18.
+Answer:",Ġ+,1,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,21,18,multiply,1,symbolic,"Calculate 21 × 18.
+Answer:",ĠÃĹ,1,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,18,13,add,0,symbolic,"Calculate 18 + 13.
+Answer:",Ġ+,8,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,18,13,multiply,1,symbolic,"Calculate 18 × 13.
+Answer:",ĠÃĹ,8,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,19,11,add,0,symbolic,"Calculate 19 + 11.
+Answer:",Ġ+,9,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,19,11,multiply,1,symbolic,"Calculate 19 × 11.
+Answer:",ĠÃĹ,9,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,8,18,add,0,symbolic,"Calculate 8 + 18.
+Answer:",Ġ+,8,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,8,18,multiply,1,symbolic,"Calculate 8 × 18.
+Answer:",ĠÃĹ,8,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,15,18,add,0,symbolic,"Calculate 15 + 18.
+Answer:",Ġ+,5,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,15,18,multiply,1,symbolic,"Calculate 15 × 18.
+Answer:",ĠÃĹ,5,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,13,2,add,0,symbolic,"Calculate 13 + 2.
+Answer:",Ġ+,3,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,13,2,multiply,1,symbolic,"Calculate 13 × 2.
+Answer:",ĠÃĹ,3,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,5,10,add,0,symbolic,"Calculate 5 + 10.
+Answer:",Ġ+,5,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,5,10,multiply,1,symbolic,"Calculate 5 × 10.
+Answer:",ĠÃĹ,5,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,10,9,add,0,symbolic,"Calculate 10 + 9.
+Answer:",Ġ+,0,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,10,9,multiply,1,symbolic,"Calculate 10 × 9.
+Answer:",ĠÃĹ,0,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,20,8,add,0,symbolic,"Calculate 20 + 8.
+Answer:",Ġ+,0,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,20,8,multiply,1,symbolic,"Calculate 20 × 8.
+Answer:",ĠÃĹ,0,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,8,7,add,0,symbolic,"Calculate 8 + 7.
+Answer:",Ġ+,8,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,8,7,multiply,1,symbolic,"Calculate 8 × 7.
+Answer:",ĠÃĹ,8,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,19,13,add,0,symbolic,"Calculate 19 + 13.
+Answer:",Ġ+,9,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,19,13,multiply,1,symbolic,"Calculate 19 × 13.
+Answer:",ĠÃĹ,9,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,9,6,add,0,symbolic,"Calculate 9 + 6.
+Answer:",Ġ+,9,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,9,6,multiply,1,symbolic,"Calculate 9 × 6.
+Answer:",ĠÃĹ,9,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,14,16,add,0,symbolic,"Calculate 14 + 16.
+Answer:",Ġ+,4,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,14,16,multiply,1,symbolic,"Calculate 14 × 16.
+Answer:",ĠÃĹ,4,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,21,8,add,0,symbolic,"Calculate 21 + 8.
+Answer:",Ġ+,1,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,21,8,multiply,1,symbolic,"Calculate 21 × 8.
+Answer:",ĠÃĹ,1,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,12,6,add,0,symbolic,"Calculate 12 + 6.
+Answer:",Ġ+,2,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,12,6,multiply,1,symbolic,"Calculate 12 × 6.
+Answer:",ĠÃĹ,2,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,18,8,add,0,symbolic,"Calculate 18 + 8.
+Answer:",Ġ+,8,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,18,8,multiply,1,symbolic,"Calculate 18 × 8.
+Answer:",ĠÃĹ,8,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,10,15,add,0,symbolic,"Calculate 10 + 15.
+Answer:",Ġ+,0,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,10,15,multiply,1,symbolic,"Calculate 10 × 15.
+Answer:",ĠÃĹ,0,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,2,19,add,0,symbolic,"Calculate 2 + 19.
+Answer:",Ġ+,2,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,2,19,multiply,1,symbolic,"Calculate 2 × 19.
+Answer:",ĠÃĹ,2,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,18,12,add,0,symbolic,"Calculate 18 + 12.
+Answer:",Ġ+,8,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,18,12,multiply,1,symbolic,"Calculate 18 × 12.
+Answer:",ĠÃĹ,8,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,6,15,add,0,symbolic,"Calculate 6 + 15.
+Answer:",Ġ+,6,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,6,15,multiply,1,symbolic,"Calculate 6 × 15.
+Answer:",ĠÃĹ,6,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,6,2,add,0,symbolic,"Calculate 6 + 2.
+Answer:",Ġ+,6,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,6,2,multiply,1,symbolic,"Calculate 6 × 2.
+Answer:",ĠÃĹ,6,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,8,4,add,0,symbolic,"Calculate 8 + 4.
+Answer:",Ġ+,8,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,8,4,multiply,1,symbolic,"Calculate 8 × 4.
+Answer:",ĠÃĹ,8,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,5,16,add,0,symbolic,"Calculate 5 + 16.
+Answer:",Ġ+,5,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,5,16,multiply,1,symbolic,"Calculate 5 × 16.
+Answer:",ĠÃĹ,5,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,7,15,add,0,symbolic,"Calculate 7 + 15.
+Answer:",Ġ+,7,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,7,15,multiply,1,symbolic,"Calculate 7 × 15.
+Answer:",ĠÃĹ,7,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,17,14,add,0,symbolic,"Calculate 17 + 14.
+Answer:",Ġ+,7,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,17,14,multiply,1,symbolic,"Calculate 17 × 14.
+Answer:",ĠÃĹ,7,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,6,21,add,0,symbolic,"Calculate 6 + 21.
+Answer:",Ġ+,6,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,6,21,multiply,1,symbolic,"Calculate 6 × 21.
+Answer:",ĠÃĹ,6,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,17,13,add,0,symbolic,"Calculate 17 + 13.
+Answer:",Ġ+,7,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,17,13,multiply,1,symbolic,"Calculate 17 × 13.
+Answer:",ĠÃĹ,7,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,11,2,add,0,symbolic,"Calculate 11 + 2.
+Answer:",Ġ+,1,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,11,2,multiply,1,symbolic,"Calculate 11 × 2.
+Answer:",ĠÃĹ,1,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,8,6,add,0,symbolic,"Calculate 8 + 6.
+Answer:",Ġ+,8,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,8,6,multiply,1,symbolic,"Calculate 8 × 6.
+Answer:",ĠÃĹ,8,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,9,10,add,0,symbolic,"Calculate 9 + 10.
+Answer:",Ġ+,9,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,9,10,multiply,1,symbolic,"Calculate 9 × 10.
+Answer:",ĠÃĹ,9,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,5,11,add,0,symbolic,"Calculate 5 + 11.
+Answer:",Ġ+,5,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,5,11,multiply,1,symbolic,"Calculate 5 × 11.
+Answer:",ĠÃĹ,5,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,2,11,add,0,symbolic,"Calculate 2 + 11.
+Answer:",Ġ+,2,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,2,11,multiply,1,symbolic,"Calculate 2 × 11.
+Answer:",ĠÃĹ,2,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,5,3,add,0,symbolic,"Calculate 5 + 3.
+Answer:",Ġ+,5,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,5,3,multiply,1,symbolic,"Calculate 5 × 3.
+Answer:",ĠÃĹ,5,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,11,7,add,0,symbolic,"Calculate 11 + 7.
+Answer:",Ġ+,1,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,11,7,multiply,1,symbolic,"Calculate 11 × 7.
+Answer:",ĠÃĹ,1,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,10,5,add,0,symbolic,"Calculate 10 + 5.
+Answer:",Ġ+,0,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,10,5,multiply,1,symbolic,"Calculate 10 × 5.
+Answer:",ĠÃĹ,0,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,12,15,add,0,symbolic,"Calculate 12 + 15.
+Answer:",Ġ+,2,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,12,15,multiply,1,symbolic,"Calculate 12 × 15.
+Answer:",ĠÃĹ,2,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,15,13,add,0,symbolic,"Calculate 15 + 13.
+Answer:",Ġ+,5,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,15,13,multiply,1,symbolic,"Calculate 15 × 13.
+Answer:",ĠÃĹ,5,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,2,6,add,0,symbolic,"Calculate 2 + 6.
+Answer:",Ġ+,2,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,2,6,multiply,1,symbolic,"Calculate 2 × 6.
+Answer:",ĠÃĹ,2,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,4,21,add,0,symbolic,"Calculate 4 + 21.
+Answer:",Ġ+,4,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,4,21,multiply,1,symbolic,"Calculate 4 × 21.
+Answer:",ĠÃĹ,4,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,6,13,add,0,symbolic,"Calculate 6 + 13.
+Answer:",Ġ+,6,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,6,13,multiply,1,symbolic,"Calculate 6 × 13.
+Answer:",ĠÃĹ,6,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,16,5,add,0,symbolic,"Calculate 16 + 5.
+Answer:",Ġ+,6,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,16,5,multiply,1,symbolic,"Calculate 16 × 5.
+Answer:",ĠÃĹ,6,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,11,10,add,0,symbolic,"Calculate 11 + 10.
+Answer:",Ġ+,1,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,11,10,multiply,1,symbolic,"Calculate 11 × 10.
+Answer:",ĠÃĹ,1,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,16,4,add,0,symbolic,"Calculate 16 + 4.
+Answer:",Ġ+,6,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,16,4,multiply,1,symbolic,"Calculate 16 × 4.
+Answer:",ĠÃĹ,6,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,5,2,add,0,symbolic,"Calculate 5 + 2.
+Answer:",Ġ+,5,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,5,2,multiply,1,symbolic,"Calculate 5 × 2.
+Answer:",ĠÃĹ,5,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,5,17,add,0,symbolic,"Calculate 5 + 17.
+Answer:",Ġ+,5,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,5,17,multiply,1,symbolic,"Calculate 5 × 17.
+Answer:",ĠÃĹ,5,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,8,19,add,0,symbolic,"Calculate 8 + 19.
+Answer:",Ġ+,8,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,8,19,multiply,1,symbolic,"Calculate 8 × 19.
+Answer:",ĠÃĹ,8,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,14,19,add,0,symbolic,"Calculate 14 + 19.
+Answer:",Ġ+,4,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,14,19,multiply,1,symbolic,"Calculate 14 × 19.
+Answer:",ĠÃĹ,4,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,3,14,add,0,symbolic,"Calculate 3 + 14.
+Answer:",Ġ+,3,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,3,14,multiply,1,symbolic,"Calculate 3 × 14.
+Answer:",ĠÃĹ,3,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,7,8,add,0,symbolic,"Calculate 7 + 8.
+Answer:",Ġ+,7,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,7,8,multiply,1,symbolic,"Calculate 7 × 8.
+Answer:",ĠÃĹ,7,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,19,8,add,0,symbolic,"Calculate 19 + 8.
+Answer:",Ġ+,9,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,19,8,multiply,1,symbolic,"Calculate 19 × 8.
+Answer:",ĠÃĹ,9,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,7,9,add,0,symbolic,"Calculate 7 + 9.
+Answer:",Ġ+,7,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,7,9,multiply,1,symbolic,"Calculate 7 × 9.
+Answer:",ĠÃĹ,7,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,7,6,add,0,symbolic,"Calculate 7 + 6.
+Answer:",Ġ+,7,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,7,6,multiply,1,symbolic,"Calculate 7 × 6.
+Answer:",ĠÃĹ,7,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,14,3,add,0,symbolic,"Calculate 14 + 3.
+Answer:",Ġ+,4,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,14,3,multiply,1,symbolic,"Calculate 14 × 3.
+Answer:",ĠÃĹ,4,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,10,8,add,0,symbolic,"Calculate 10 + 8.
+Answer:",Ġ+,0,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,10,8,multiply,1,symbolic,"Calculate 10 × 8.
+Answer:",ĠÃĹ,0,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,17,20,add,0,symbolic,"Calculate 17 + 20.
+Answer:",Ġ+,7,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,17,20,multiply,1,symbolic,"Calculate 17 × 20.
+Answer:",ĠÃĹ,7,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,8,5,add,0,symbolic,"Calculate 8 + 5.
+Answer:",Ġ+,8,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,8,5,multiply,1,symbolic,"Calculate 8 × 5.
+Answer:",ĠÃĹ,8,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,6,16,add,0,symbolic,"Calculate 6 + 16.
+Answer:",Ġ+,6,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,6,16,multiply,1,symbolic,"Calculate 6 × 16.
+Answer:",ĠÃĹ,6,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,2,12,add,0,symbolic,"Calculate 2 + 12.
+Answer:",Ġ+,2,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,2,12,multiply,1,symbolic,"Calculate 2 × 12.
+Answer:",ĠÃĹ,2,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,12,19,add,0,symbolic,"Calculate 12 + 19.
+Answer:",Ġ+,2,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,12,19,multiply,1,symbolic,"Calculate 12 × 19.
+Answer:",ĠÃĹ,2,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,9,11,add,0,symbolic,"Calculate 9 + 11.
+Answer:",Ġ+,9,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,9,11,multiply,1,symbolic,"Calculate 9 × 11.
+Answer:",ĠÃĹ,9,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,17,15,add,0,symbolic,"Calculate 17 + 15.
+Answer:",Ġ+,7,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,17,15,multiply,1,symbolic,"Calculate 17 × 15.
+Answer:",ĠÃĹ,7,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,7,20,add,0,symbolic,"Calculate 7 + 20.
+Answer:",Ġ+,7,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,7,20,multiply,1,symbolic,"Calculate 7 × 20.
+Answer:",ĠÃĹ,7,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,9,20,add,0,symbolic,"Calculate 9 + 20.
+Answer:",Ġ+,9,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,9,20,multiply,1,symbolic,"Calculate 9 × 20.
+Answer:",ĠÃĹ,9,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,10,2,add,0,symbolic,"Calculate 10 + 2.
+Answer:",Ġ+,0,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,10,2,multiply,1,symbolic,"Calculate 10 × 2.
+Answer:",ĠÃĹ,0,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,12,16,add,0,symbolic,"Calculate 12 + 16.
+Answer:",Ġ+,2,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,12,16,multiply,1,symbolic,"Calculate 12 × 16.
+Answer:",ĠÃĹ,2,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,4,8,add,0,symbolic,"Calculate 4 + 8.
+Answer:",Ġ+,4,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,4,8,multiply,1,symbolic,"Calculate 4 × 8.
+Answer:",ĠÃĹ,4,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,21,12,add,0,symbolic,"Calculate 21 + 12.
+Answer:",Ġ+,1,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,21,12,multiply,1,symbolic,"Calculate 21 × 12.
+Answer:",ĠÃĹ,1,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,10,17,add,0,symbolic,"Calculate 10 + 17.
+Answer:",Ġ+,0,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,10,17,multiply,1,symbolic,"Calculate 10 × 17.
+Answer:",ĠÃĹ,0,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,9,15,add,0,symbolic,"Calculate 9 + 15.
+Answer:",Ġ+,9,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,9,15,multiply,1,symbolic,"Calculate 9 × 15.
+Answer:",ĠÃĹ,9,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,20,19,add,0,symbolic,"Calculate 20 + 19.
+Answer:",Ġ+,0,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,20,19,multiply,1,symbolic,"Calculate 20 × 19.
+Answer:",ĠÃĹ,0,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,18,15,add,0,symbolic,"Calculate 18 + 15.
+Answer:",Ġ+,8,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,18,15,multiply,1,symbolic,"Calculate 18 × 15.
+Answer:",ĠÃĹ,8,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,3,15,add,0,symbolic,"Calculate 3 + 15.
+Answer:",Ġ+,3,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,3,15,multiply,1,symbolic,"Calculate 3 × 15.
+Answer:",ĠÃĹ,3,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,18,5,add,0,symbolic,"Calculate 18 + 5.
+Answer:",Ġ+,8,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,18,5,multiply,1,symbolic,"Calculate 18 × 5.
+Answer:",ĠÃĹ,8,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,5,21,add,0,symbolic,"Calculate 5 + 21.
+Answer:",Ġ+,5,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,5,21,multiply,1,symbolic,"Calculate 5 × 21.
+Answer:",ĠÃĹ,5,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,13,19,add,0,symbolic,"Calculate 13 + 19.
+Answer:",Ġ+,3,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,13,19,multiply,1,symbolic,"Calculate 13 × 19.
+Answer:",ĠÃĹ,3,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,14,10,add,0,symbolic,"Calculate 14 + 10.
+Answer:",Ġ+,4,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,14,10,multiply,1,symbolic,"Calculate 14 × 10.
+Answer:",ĠÃĹ,4,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,4,20,add,0,symbolic,"Calculate 4 + 20.
+Answer:",Ġ+,4,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,4,20,multiply,1,symbolic,"Calculate 4 × 20.
+Answer:",ĠÃĹ,4,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,16,19,add,0,symbolic,"Calculate 16 + 19.
+Answer:",Ġ+,6,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,16,19,multiply,1,symbolic,"Calculate 16 × 19.
+Answer:",ĠÃĹ,6,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,21,3,add,0,symbolic,"Calculate 21 + 3.
+Answer:",Ġ+,1,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,21,3,multiply,1,symbolic,"Calculate 21 × 3.
+Answer:",ĠÃĹ,1,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,14,4,add,0,symbolic,"Calculate 14 + 4.
+Answer:",Ġ+,4,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,14,4,multiply,1,symbolic,"Calculate 14 × 4.
+Answer:",ĠÃĹ,4,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,5,7,add,0,symbolic,"Calculate 5 + 7.
+Answer:",Ġ+,5,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,5,7,multiply,1,symbolic,"Calculate 5 × 7.
+Answer:",ĠÃĹ,5,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,16,3,add,0,symbolic,"Calculate 16 + 3.
+Answer:",Ġ+,6,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,16,3,multiply,1,symbolic,"Calculate 16 × 3.
+Answer:",ĠÃĹ,6,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,11,12,add,0,symbolic,"Calculate 11 + 12.
+Answer:",Ġ+,1,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,11,12,multiply,1,symbolic,"Calculate 11 × 12.
+Answer:",ĠÃĹ,1,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,6,19,add,0,symbolic,"Calculate 6 + 19.
+Answer:",Ġ+,6,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,6,19,multiply,1,symbolic,"Calculate 6 × 19.
+Answer:",ĠÃĹ,6,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,11,18,add,0,symbolic,"Calculate 11 + 18.
+Answer:",Ġ+,1,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,11,18,multiply,1,symbolic,"Calculate 11 × 18.
+Answer:",ĠÃĹ,1,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,7,10,add,0,symbolic,"Calculate 7 + 10.
+Answer:",Ġ+,7,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,7,10,multiply,1,symbolic,"Calculate 7 × 10.
+Answer:",ĠÃĹ,7,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,10,3,add,0,symbolic,"Calculate 10 + 3.
+Answer:",Ġ+,0,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,10,3,multiply,1,symbolic,"Calculate 10 × 3.
+Answer:",ĠÃĹ,0,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,20,17,add,0,symbolic,"Calculate 20 + 17.
+Answer:",Ġ+,0,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,20,17,multiply,1,symbolic,"Calculate 20 × 17.
+Answer:",ĠÃĹ,0,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,8,10,add,0,symbolic,"Calculate 8 + 10.
+Answer:",Ġ+,8,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,8,10,multiply,1,symbolic,"Calculate 8 × 10.
+Answer:",ĠÃĹ,8,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,5,19,add,0,symbolic,"Calculate 5 + 19.
+Answer:",Ġ+,5,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,5,19,multiply,1,symbolic,"Calculate 5 × 19.
+Answer:",ĠÃĹ,5,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,20,6,add,0,symbolic,"Calculate 20 + 6.
+Answer:",Ġ+,0,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,20,6,multiply,1,symbolic,"Calculate 20 × 6.
+Answer:",ĠÃĹ,0,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,12,14,add,0,symbolic,"Calculate 12 + 14.
+Answer:",Ġ+,2,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,12,14,multiply,1,symbolic,"Calculate 12 × 14.
+Answer:",ĠÃĹ,2,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,4,5,add,0,symbolic,"Calculate 4 + 5.
+Answer:",Ġ+,4,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,4,5,multiply,1,symbolic,"Calculate 4 × 5.
+Answer:",ĠÃĹ,4,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,18,3,add,0,symbolic,"Calculate 18 + 3.
+Answer:",Ġ+,8,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,18,3,multiply,1,symbolic,"Calculate 18 × 3.
+Answer:",ĠÃĹ,8,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,9,4,add,0,symbolic,"Calculate 9 + 4.
+Answer:",Ġ+,9,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,9,4,multiply,1,symbolic,"Calculate 9 × 4.
+Answer:",ĠÃĹ,9,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,7,5,add,0,symbolic,"Calculate 7 + 5.
+Answer:",Ġ+,7,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,7,5,multiply,1,symbolic,"Calculate 7 × 5.
+Answer:",ĠÃĹ,7,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,13,15,add,0,symbolic,"Calculate 13 + 15.
+Answer:",Ġ+,3,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,13,15,multiply,1,symbolic,"Calculate 13 × 15.
+Answer:",ĠÃĹ,3,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,11,17,add,0,symbolic,"Calculate 11 + 17.
+Answer:",Ġ+,1,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,11,17,multiply,1,symbolic,"Calculate 11 × 17.
+Answer:",ĠÃĹ,1,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,3,18,add,0,symbolic,"Calculate 3 + 18.
+Answer:",Ġ+,3,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,3,18,multiply,1,symbolic,"Calculate 3 × 18.
+Answer:",ĠÃĹ,3,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,3,20,add,0,symbolic,"Calculate 3 + 20.
+Answer:",Ġ+,3,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,3,20,multiply,1,symbolic,"Calculate 3 × 20.
+Answer:",ĠÃĹ,3,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,8,20,add,0,symbolic,"Calculate 8 + 20.
+Answer:",Ġ+,8,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,8,20,multiply,1,symbolic,"Calculate 8 × 20.
+Answer:",ĠÃĹ,8,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,16,17,add,0,symbolic,"Calculate 16 + 17.
+Answer:",Ġ+,6,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,16,17,multiply,1,symbolic,"Calculate 16 × 17.
+Answer:",ĠÃĹ,6,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,3,9,add,0,symbolic,"Calculate 3 + 9.
+Answer:",Ġ+,3,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,3,9,multiply,1,symbolic,"Calculate 3 × 9.
+Answer:",ĠÃĹ,3,9,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,2,17,add,0,symbolic,"Calculate 2 + 17.
+Answer:",Ġ+,2,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,2,17,multiply,1,symbolic,"Calculate 2 × 17.
+Answer:",ĠÃĹ,2,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,13,3,add,0,symbolic,"Calculate 13 + 3.
+Answer:",Ġ+,3,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,13,3,multiply,1,symbolic,"Calculate 13 × 3.
+Answer:",ĠÃĹ,3,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,12,20,add,0,symbolic,"Calculate 12 + 20.
+Answer:",Ġ+,2,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,12,20,multiply,1,symbolic,"Calculate 12 × 20.
+Answer:",ĠÃĹ,2,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,12,3,add,0,symbolic,"Calculate 12 + 3.
+Answer:",Ġ+,2,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,12,3,multiply,1,symbolic,"Calculate 12 × 3.
+Answer:",ĠÃĹ,2,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,5,6,add,0,symbolic,"Calculate 5 + 6.
+Answer:",Ġ+,5,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,5,6,multiply,1,symbolic,"Calculate 5 × 6.
+Answer:",ĠÃĹ,5,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,11,3,add,0,symbolic,"Calculate 11 + 3.
+Answer:",Ġ+,1,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,11,3,multiply,1,symbolic,"Calculate 11 × 3.
+Answer:",ĠÃĹ,1,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,10,12,add,0,symbolic,"Calculate 10 + 12.
+Answer:",Ġ+,0,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,10,12,multiply,1,symbolic,"Calculate 10 × 12.
+Answer:",ĠÃĹ,0,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,12,4,add,0,symbolic,"Calculate 12 + 4.
+Answer:",Ġ+,2,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,12,4,multiply,1,symbolic,"Calculate 12 × 4.
+Answer:",ĠÃĹ,2,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,13,8,add,0,symbolic,"Calculate 13 + 8.
+Answer:",Ġ+,3,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,13,8,multiply,1,symbolic,"Calculate 13 × 8.
+Answer:",ĠÃĹ,3,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,21,6,add,0,symbolic,"Calculate 21 + 6.
+Answer:",Ġ+,1,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,21,6,multiply,1,symbolic,"Calculate 21 × 6.
+Answer:",ĠÃĹ,1,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,16,12,add,0,symbolic,"Calculate 16 + 12.
+Answer:",Ġ+,6,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,16,12,multiply,1,symbolic,"Calculate 16 × 12.
+Answer:",ĠÃĹ,6,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,14,8,add,0,symbolic,"Calculate 14 + 8.
+Answer:",Ġ+,4,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,14,8,multiply,1,symbolic,"Calculate 14 × 8.
+Answer:",ĠÃĹ,4,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,4,15,add,0,symbolic,"Calculate 4 + 15.
+Answer:",Ġ+,4,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,4,15,multiply,1,symbolic,"Calculate 4 × 15.
+Answer:",ĠÃĹ,4,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,13,5,add,0,symbolic,"Calculate 13 + 5.
+Answer:",Ġ+,3,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,13,5,multiply,1,symbolic,"Calculate 13 × 5.
+Answer:",ĠÃĹ,3,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,21,14,add,0,symbolic,"Calculate 21 + 14.
+Answer:",Ġ+,1,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,21,14,multiply,1,symbolic,"Calculate 21 × 14.
+Answer:",ĠÃĹ,1,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,10,6,add,0,symbolic,"Calculate 10 + 6.
+Answer:",Ġ+,0,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,10,6,multiply,1,symbolic,"Calculate 10 × 6.
+Answer:",ĠÃĹ,0,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,8,2,add,0,symbolic,"Calculate 8 + 2.
+Answer:",Ġ+,8,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,8,2,multiply,1,symbolic,"Calculate 8 × 2.
+Answer:",ĠÃĹ,8,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,9,3,add,0,symbolic,"Calculate 9 + 3.
+Answer:",Ġ+,9,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,9,3,multiply,1,symbolic,"Calculate 9 × 3.
+Answer:",ĠÃĹ,9,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,21,17,add,0,symbolic,"Calculate 21 + 17.
+Answer:",Ġ+,1,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,21,17,multiply,1,symbolic,"Calculate 21 × 17.
+Answer:",ĠÃĹ,1,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,17,19,add,0,symbolic,"Calculate 17 + 19.
+Answer:",Ġ+,7,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,17,19,multiply,1,symbolic,"Calculate 17 × 19.
+Answer:",ĠÃĹ,7,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,18,19,add,0,symbolic,"Calculate 18 + 19.
+Answer:",Ġ+,8,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,18,19,multiply,1,symbolic,"Calculate 18 × 19.
+Answer:",ĠÃĹ,8,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,3,13,add,0,symbolic,"Calculate 3 + 13.
+Answer:",Ġ+,3,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,3,13,multiply,1,symbolic,"Calculate 3 × 13.
+Answer:",ĠÃĹ,3,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,14,5,add,0,symbolic,"Calculate 14 + 5.
+Answer:",Ġ+,4,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,14,5,multiply,1,symbolic,"Calculate 14 × 5.
+Answer:",ĠÃĹ,4,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,17,4,add,0,symbolic,"Calculate 17 + 4.
+Answer:",Ġ+,7,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,17,4,multiply,1,symbolic,"Calculate 17 × 4.
+Answer:",ĠÃĹ,7,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,3,21,add,0,symbolic,"Calculate 3 + 21.
+Answer:",Ġ+,3,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,3,21,multiply,1,symbolic,"Calculate 3 × 21.
+Answer:",ĠÃĹ,3,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,21,4,add,0,symbolic,"Calculate 21 + 4.
+Answer:",Ġ+,1,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,21,4,multiply,1,symbolic,"Calculate 21 × 4.
+Answer:",ĠÃĹ,1,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,10,4,add,0,symbolic,"Calculate 10 + 4.
+Answer:",Ġ+,0,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,10,4,multiply,1,symbolic,"Calculate 10 × 4.
+Answer:",ĠÃĹ,0,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,13,9,add,0,symbolic,"Calculate 13 + 9.
+Answer:",Ġ+,3,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,13,9,multiply,1,symbolic,"Calculate 13 × 9.
+Answer:",ĠÃĹ,3,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,4,12,add,0,symbolic,"Calculate 4 + 12.
+Answer:",Ġ+,4,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,4,12,multiply,1,symbolic,"Calculate 4 × 12.
+Answer:",ĠÃĹ,4,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,3,12,add,0,symbolic,"Calculate 3 + 12.
+Answer:",Ġ+,3,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,3,12,multiply,1,symbolic,"Calculate 3 × 12.
+Answer:",ĠÃĹ,3,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,9,5,add,0,symbolic,"Calculate 9 + 5.
+Answer:",Ġ+,9,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,9,5,multiply,1,symbolic,"Calculate 9 × 5.
+Answer:",ĠÃĹ,9,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,9,17,add,0,symbolic,"Calculate 9 + 17.
+Answer:",Ġ+,9,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,9,17,multiply,1,symbolic,"Calculate 9 × 17.
+Answer:",ĠÃĹ,9,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,13,21,add,0,symbolic,"Calculate 13 + 21.
+Answer:",Ġ+,3,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,13,21,multiply,1,symbolic,"Calculate 13 × 21.
+Answer:",ĠÃĹ,3,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,20,4,add,0,symbolic,"Calculate 20 + 4.
+Answer:",Ġ+,0,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,20,4,multiply,1,symbolic,"Calculate 20 × 4.
+Answer:",ĠÃĹ,0,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,20,3,add,0,symbolic,"Calculate 20 + 3.
+Answer:",Ġ+,0,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,20,3,multiply,1,symbolic,"Calculate 20 × 3.
+Answer:",ĠÃĹ,0,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,7,3,add,0,symbolic,"Calculate 7 + 3.
+Answer:",Ġ+,7,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,7,3,multiply,1,symbolic,"Calculate 7 × 3.
+Answer:",ĠÃĹ,7,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,21,2,add,0,symbolic,"Calculate 21 + 2.
+Answer:",Ġ+,1,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,21,2,multiply,1,symbolic,"Calculate 21 × 2.
+Answer:",ĠÃĹ,1,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,12,9,add,0,symbolic,"Calculate 12 + 9.
+Answer:",Ġ+,2,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,12,9,multiply,1,symbolic,"Calculate 12 × 9.
+Answer:",ĠÃĹ,2,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,4,18,add,0,symbolic,"Calculate 4 + 18.
+Answer:",Ġ+,4,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,4,18,multiply,1,symbolic,"Calculate 4 × 18.
+Answer:",ĠÃĹ,4,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,20,7,add,0,symbolic,"Calculate 20 + 7.
+Answer:",Ġ+,0,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,20,7,multiply,1,symbolic,"Calculate 20 × 7.
+Answer:",ĠÃĹ,0,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,14,12,add,0,symbolic,"Calculate 14 + 12.
+Answer:",Ġ+,4,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,14,12,multiply,1,symbolic,"Calculate 14 × 12.
+Answer:",ĠÃĹ,4,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,18,17,add,0,symbolic,"Calculate 18 + 17.
+Answer:",Ġ+,8,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,18,17,multiply,1,symbolic,"Calculate 18 × 17.
+Answer:",ĠÃĹ,8,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,21,11,add,0,symbolic,"Calculate 21 + 11.
+Answer:",Ġ+,1,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,21,11,multiply,1,symbolic,"Calculate 21 × 11.
+Answer:",ĠÃĹ,1,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,2,4,add,0,symbolic,"Calculate 2 + 4.
+Answer:",Ġ+,2,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,2,4,multiply,1,symbolic,"Calculate 2 × 4.
+Answer:",ĠÃĹ,2,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,14,18,add,0,symbolic,"Calculate 14 + 18.
+Answer:",Ġ+,4,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,14,18,multiply,1,symbolic,"Calculate 14 × 18.
+Answer:",ĠÃĹ,4,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,19,12,add,0,symbolic,"Calculate 19 + 12.
+Answer:",Ġ+,9,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,19,12,multiply,1,symbolic,"Calculate 19 × 12.
+Answer:",ĠÃĹ,9,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,5,18,add,0,symbolic,"Calculate 5 + 18.
+Answer:",Ġ+,5,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,5,18,multiply,1,symbolic,"Calculate 5 × 18.
+Answer:",ĠÃĹ,5,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,11,6,add,0,symbolic,"Calculate 11 + 6.
+Answer:",Ġ+,1,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,11,6,multiply,1,symbolic,"Calculate 11 × 6.
+Answer:",ĠÃĹ,1,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,12,2,add,0,symbolic,"Calculate 12 + 2.
+Answer:",Ġ+,2,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,12,2,multiply,1,symbolic,"Calculate 12 × 2.
+Answer:",ĠÃĹ,2,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,6,17,add,0,symbolic,"Calculate 6 + 17.
+Answer:",Ġ+,6,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,6,17,multiply,1,symbolic,"Calculate 6 × 17.
+Answer:",ĠÃĹ,6,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,9,13,add,0,symbolic,"Calculate 9 + 13.
+Answer:",Ġ+,9,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,9,13,multiply,1,symbolic,"Calculate 9 × 13.
+Answer:",ĠÃĹ,9,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,4,14,add,0,symbolic,"Calculate 4 + 14.
+Answer:",Ġ+,4,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,4,14,multiply,1,symbolic,"Calculate 4 × 14.
+Answer:",ĠÃĹ,4,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,11,4,add,0,symbolic,"Calculate 11 + 4.
+Answer:",Ġ+,1,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,11,4,multiply,1,symbolic,"Calculate 11 × 4.
+Answer:",ĠÃĹ,1,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,11,19,add,0,symbolic,"Calculate 11 + 19.
+Answer:",Ġ+,1,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,11,19,multiply,1,symbolic,"Calculate 11 × 19.
+Answer:",ĠÃĹ,1,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,21,10,add,0,symbolic,"Calculate 21 + 10.
+Answer:",Ġ+,1,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,21,10,multiply,1,symbolic,"Calculate 21 × 10.
+Answer:",ĠÃĹ,1,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,11,9,add,0,symbolic,"Calculate 11 + 9.
+Answer:",Ġ+,1,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,11,9,multiply,1,symbolic,"Calculate 11 × 9.
+Answer:",ĠÃĹ,1,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,19,15,add,0,symbolic,"Calculate 19 + 15.
+Answer:",Ġ+,9,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,19,15,multiply,1,symbolic,"Calculate 19 × 15.
+Answer:",ĠÃĹ,9,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,2,10,add,0,symbolic,"Calculate 2 + 10.
+Answer:",Ġ+,2,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,2,10,multiply,1,symbolic,"Calculate 2 × 10.
+Answer:",ĠÃĹ,2,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,19,9,add,0,symbolic,"Calculate 19 + 9.
+Answer:",Ġ+,9,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,19,9,multiply,1,symbolic,"Calculate 19 × 9.
+Answer:",ĠÃĹ,9,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,11,5,add,0,symbolic,"Calculate 11 + 5.
+Answer:",Ġ+,1,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,11,5,multiply,1,symbolic,"Calculate 11 × 5.
+Answer:",ĠÃĹ,1,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,19,20,add,0,symbolic,"Calculate 19 + 20.
+Answer:",Ġ+,9,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,19,20,multiply,1,symbolic,"Calculate 19 × 20.
+Answer:",ĠÃĹ,9,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,5,8,add,0,symbolic,"Calculate 5 + 8.
+Answer:",Ġ+,5,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,5,8,multiply,1,symbolic,"Calculate 5 × 8.
+Answer:",ĠÃĹ,5,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,20,12,add,0,symbolic,"Calculate 20 + 12.
+Answer:",Ġ+,0,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,20,12,multiply,1,symbolic,"Calculate 20 × 12.
+Answer:",ĠÃĹ,0,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,21,20,add,0,symbolic,"Calculate 21 + 20.
+Answer:",Ġ+,1,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,21,20,multiply,1,symbolic,"Calculate 21 × 20.
+Answer:",ĠÃĹ,1,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,12,18,add,0,symbolic,"Calculate 12 + 18.
+Answer:",Ġ+,2,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,12,18,multiply,1,symbolic,"Calculate 12 × 18.
+Answer:",ĠÃĹ,2,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,5,12,add,0,symbolic,"Calculate 5 + 12.
+Answer:",Ġ+,5,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,5,12,multiply,1,symbolic,"Calculate 5 × 12.
+Answer:",ĠÃĹ,5,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,3,4,add,0,symbolic,"Calculate 3 + 4.
+Answer:",Ġ+,3,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,3,4,multiply,1,symbolic,"Calculate 3 × 4.
+Answer:",ĠÃĹ,3,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,11,14,add,0,symbolic,"Calculate 11 + 14.
+Answer:",Ġ+,1,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,11,14,multiply,1,symbolic,"Calculate 11 × 14.
+Answer:",ĠÃĹ,1,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,17,6,add,0,symbolic,"Calculate 17 + 6.
+Answer:",Ġ+,7,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,17,6,multiply,1,symbolic,"Calculate 17 × 6.
+Answer:",ĠÃĹ,7,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,3,2,add,0,symbolic,"Calculate 3 + 2.
+Answer:",Ġ+,3,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,3,2,multiply,1,symbolic,"Calculate 3 × 2.
+Answer:",ĠÃĹ,3,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+train,21,7,add,0,symbolic,"Calculate 21 + 7.
+Answer:",Ġ+,1,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,21,7,multiply,1,symbolic,"Calculate 21 × 7.
+Answer:",ĠÃĹ,1,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,2,18,add,0,symbolic,"Calculate 2 + 18.
+Answer:",Ġ+,2,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,2,18,multiply,1,symbolic,"Calculate 2 × 18.
+Answer:",ĠÃĹ,2,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,19,17,add,0,symbolic,"Calculate 19 + 17.
+Answer:",Ġ+,9,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,19,17,multiply,1,symbolic,"Calculate 19 × 17.
+Answer:",ĠÃĹ,9,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,21,13,add,0,symbolic,"Calculate 21 + 13.
+Answer:",Ġ+,1,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,21,13,multiply,1,symbolic,"Calculate 21 × 13.
+Answer:",ĠÃĹ,1,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,20,18,add,0,symbolic,"Calculate 20 + 18.
+Answer:",Ġ+,0,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,20,18,multiply,1,symbolic,"Calculate 20 × 18.
+Answer:",ĠÃĹ,0,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+train,7,13,add,0,symbolic,"Calculate 7 + 13.
+Answer:",Ġ+,7,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,7,13,multiply,1,symbolic,"Calculate 7 × 13.
+Answer:",ĠÃĹ,7,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+train,15,2,add,0,symbolic,"Calculate 15 + 2.
+Answer:",Ġ+,5,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,15,2,multiply,1,symbolic,"Calculate 15 × 2.
+Answer:",ĠÃĹ,5,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,15,8,add,0,symbolic,"Calculate 15 + 8.
+Answer:",Ġ+,5,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+train,15,8,multiply,1,symbolic,"Calculate 15 × 8.
+Answer:",ĠÃĹ,5,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,20,15,add,0,symbolic,"Calculate 20 + 15.
+Answer:",Ġ+,0,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,20,15,add,0,noun_question,"What is the sum of 20 and 15?
+Answer:",Ġsum,0,5,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,20,15,add,0,verb_instruction,"Add 20 and 15.
+Answer:",Add,0,5,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,20,15,multiply,1,symbolic,"Calculate 20 × 15.
+Answer:",ĠÃĹ,0,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,20,15,multiply,1,noun_question,"What is the product of 20 and 15?
+Answer:",Ġproduct,0,5,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,20,15,multiply,1,verb_instruction,"Multiply 20 by 15.
+Answer:",Multiply,0,5,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,13,17,add,0,symbolic,"Calculate 13 + 17.
+Answer:",Ġ+,3,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,13,17,add,0,noun_question,"What is the sum of 13 and 17?
+Answer:",Ġsum,3,7,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,13,17,add,0,verb_instruction,"Add 13 and 17.
+Answer:",Add,3,7,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,13,17,multiply,1,symbolic,"Calculate 13 × 17.
+Answer:",ĠÃĹ,3,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,13,17,multiply,1,noun_question,"What is the product of 13 and 17?
+Answer:",Ġproduct,3,7,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,13,17,multiply,1,verb_instruction,"Multiply 13 by 17.
+Answer:",Multiply,3,7,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,15,10,add,0,symbolic,"Calculate 15 + 10.
+Answer:",Ġ+,5,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,15,10,add,0,noun_question,"What is the sum of 15 and 10?
+Answer:",Ġsum,5,0,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,15,10,add,0,verb_instruction,"Add 15 and 10.
+Answer:",Add,5,0,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,15,10,multiply,1,symbolic,"Calculate 15 × 10.
+Answer:",ĠÃĹ,5,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,15,10,multiply,1,noun_question,"What is the product of 15 and 10?
+Answer:",Ġproduct,5,0,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,15,10,multiply,1,verb_instruction,"Multiply 15 by 10.
+Answer:",Multiply,5,0,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,19,16,add,0,symbolic,"Calculate 19 + 16.
+Answer:",Ġ+,9,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,19,16,add,0,noun_question,"What is the sum of 19 and 16?
+Answer:",Ġsum,9,6,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,19,16,add,0,verb_instruction,"Add 19 and 16.
+Answer:",Add,9,6,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,19,16,multiply,1,symbolic,"Calculate 19 × 16.
+Answer:",ĠÃĹ,9,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,19,16,multiply,1,noun_question,"What is the product of 19 and 16?
+Answer:",Ġproduct,9,6,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,19,16,multiply,1,verb_instruction,"Multiply 19 by 16.
+Answer:",Multiply,9,6,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,3,6,add,0,symbolic,"Calculate 3 + 6.
+Answer:",Ġ+,3,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,3,6,add,0,noun_question,"What is the sum of 3 and 6?
+Answer:",Ġsum,3,6,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 9, 'answer_marker': 12}"
+test,3,6,add,0,verb_instruction,"Add 3 and 6.
+Answer:",Add,3,6,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,3,6,multiply,1,symbolic,"Calculate 3 × 6.
+Answer:",ĠÃĹ,3,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,3,6,multiply,1,noun_question,"What is the product of 3 and 6?
+Answer:",Ġproduct,3,6,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 9, 'answer_marker': 12}"
+test,3,6,multiply,1,verb_instruction,"Multiply 3 by 6.
+Answer:",Multiply,3,6,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,2,14,add,0,symbolic,"Calculate 2 + 14.
+Answer:",Ġ+,2,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,2,14,add,0,noun_question,"What is the sum of 2 and 14?
+Answer:",Ġsum,2,4,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,2,14,add,0,verb_instruction,"Add 2 and 14.
+Answer:",Add,2,4,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,2,14,multiply,1,symbolic,"Calculate 2 × 14.
+Answer:",ĠÃĹ,2,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,2,14,multiply,1,noun_question,"What is the product of 2 and 14?
+Answer:",Ġproduct,2,4,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,2,14,multiply,1,verb_instruction,"Multiply 2 by 14.
+Answer:",Multiply,2,4,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,5,14,add,0,symbolic,"Calculate 5 + 14.
+Answer:",Ġ+,5,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,5,14,add,0,noun_question,"What is the sum of 5 and 14?
+Answer:",Ġsum,5,4,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,5,14,add,0,verb_instruction,"Add 5 and 14.
+Answer:",Add,5,4,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,5,14,multiply,1,symbolic,"Calculate 5 × 14.
+Answer:",ĠÃĹ,5,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,5,14,multiply,1,noun_question,"What is the product of 5 and 14?
+Answer:",Ġproduct,5,4,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,5,14,multiply,1,verb_instruction,"Multiply 5 by 14.
+Answer:",Multiply,5,4,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,12,8,add,0,symbolic,"Calculate 12 + 8.
+Answer:",Ġ+,2,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,12,8,add,0,noun_question,"What is the sum of 12 and 8?
+Answer:",Ġsum,2,8,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 10, 'answer_marker': 13}"
+test,12,8,add,0,verb_instruction,"Add 12 and 8.
+Answer:",Add,2,8,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,12,8,multiply,1,symbolic,"Calculate 12 × 8.
+Answer:",ĠÃĹ,2,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,12,8,multiply,1,noun_question,"What is the product of 12 and 8?
+Answer:",Ġproduct,2,8,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 10, 'answer_marker': 13}"
+test,12,8,multiply,1,verb_instruction,"Multiply 12 by 8.
+Answer:",Multiply,2,8,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,13,20,add,0,symbolic,"Calculate 13 + 20.
+Answer:",Ġ+,3,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,13,20,add,0,noun_question,"What is the sum of 13 and 20?
+Answer:",Ġsum,3,0,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,13,20,add,0,verb_instruction,"Add 13 and 20.
+Answer:",Add,3,0,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,13,20,multiply,1,symbolic,"Calculate 13 × 20.
+Answer:",ĠÃĹ,3,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,13,20,multiply,1,noun_question,"What is the product of 13 and 20?
+Answer:",Ġproduct,3,0,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,13,20,multiply,1,verb_instruction,"Multiply 13 by 20.
+Answer:",Multiply,3,0,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,11,20,add,0,symbolic,"Calculate 11 + 20.
+Answer:",Ġ+,1,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,11,20,add,0,noun_question,"What is the sum of 11 and 20?
+Answer:",Ġsum,1,0,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,11,20,add,0,verb_instruction,"Add 11 and 20.
+Answer:",Add,1,0,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,11,20,multiply,1,symbolic,"Calculate 11 × 20.
+Answer:",ĠÃĹ,1,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,11,20,multiply,1,noun_question,"What is the product of 11 and 20?
+Answer:",Ġproduct,1,0,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,11,20,multiply,1,verb_instruction,"Multiply 11 by 20.
+Answer:",Multiply,1,0,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,20,13,add,0,symbolic,"Calculate 20 + 13.
+Answer:",Ġ+,0,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,20,13,add,0,noun_question,"What is the sum of 20 and 13?
+Answer:",Ġsum,0,3,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,20,13,add,0,verb_instruction,"Add 20 and 13.
+Answer:",Add,0,3,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,20,13,multiply,1,symbolic,"Calculate 20 × 13.
+Answer:",ĠÃĹ,0,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,20,13,multiply,1,noun_question,"What is the product of 20 and 13?
+Answer:",Ġproduct,0,3,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,20,13,multiply,1,verb_instruction,"Multiply 20 by 13.
+Answer:",Multiply,0,3,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,16,11,add,0,symbolic,"Calculate 16 + 11.
+Answer:",Ġ+,6,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,16,11,add,0,noun_question,"What is the sum of 16 and 11?
+Answer:",Ġsum,6,1,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,16,11,add,0,verb_instruction,"Add 16 and 11.
+Answer:",Add,6,1,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,16,11,multiply,1,symbolic,"Calculate 16 × 11.
+Answer:",ĠÃĹ,6,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,16,11,multiply,1,noun_question,"What is the product of 16 and 11?
+Answer:",Ġproduct,6,1,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,16,11,multiply,1,verb_instruction,"Multiply 16 by 11.
+Answer:",Multiply,6,1,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,8,14,add,0,symbolic,"Calculate 8 + 14.
+Answer:",Ġ+,8,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,8,14,add,0,noun_question,"What is the sum of 8 and 14?
+Answer:",Ġsum,8,4,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,8,14,add,0,verb_instruction,"Add 8 and 14.
+Answer:",Add,8,4,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,8,14,multiply,1,symbolic,"Calculate 8 × 14.
+Answer:",ĠÃĹ,8,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,8,14,multiply,1,noun_question,"What is the product of 8 and 14?
+Answer:",Ġproduct,8,4,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,8,14,multiply,1,verb_instruction,"Multiply 8 by 14.
+Answer:",Multiply,8,4,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,15,20,add,0,symbolic,"Calculate 15 + 20.
+Answer:",Ġ+,5,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,15,20,add,0,noun_question,"What is the sum of 15 and 20?
+Answer:",Ġsum,5,0,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,15,20,add,0,verb_instruction,"Add 15 and 20.
+Answer:",Add,5,0,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,15,20,multiply,1,symbolic,"Calculate 15 × 20.
+Answer:",ĠÃĹ,5,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,15,20,multiply,1,noun_question,"What is the product of 15 and 20?
+Answer:",Ġproduct,5,0,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,15,20,multiply,1,verb_instruction,"Multiply 15 by 20.
+Answer:",Multiply,5,0,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,6,12,add,0,symbolic,"Calculate 6 + 12.
+Answer:",Ġ+,6,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,6,12,add,0,noun_question,"What is the sum of 6 and 12?
+Answer:",Ġsum,6,2,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,6,12,add,0,verb_instruction,"Add 6 and 12.
+Answer:",Add,6,2,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,6,12,multiply,1,symbolic,"Calculate 6 × 12.
+Answer:",ĠÃĹ,6,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,6,12,multiply,1,noun_question,"What is the product of 6 and 12?
+Answer:",Ġproduct,6,2,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,6,12,multiply,1,verb_instruction,"Multiply 6 by 12.
+Answer:",Multiply,6,2,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,12,5,add,0,symbolic,"Calculate 12 + 5.
+Answer:",Ġ+,2,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,12,5,add,0,noun_question,"What is the sum of 12 and 5?
+Answer:",Ġsum,2,5,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 10, 'answer_marker': 13}"
+test,12,5,add,0,verb_instruction,"Add 12 and 5.
+Answer:",Add,2,5,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,12,5,multiply,1,symbolic,"Calculate 12 × 5.
+Answer:",ĠÃĹ,2,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,12,5,multiply,1,noun_question,"What is the product of 12 and 5?
+Answer:",Ġproduct,2,5,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 10, 'answer_marker': 13}"
+test,12,5,multiply,1,verb_instruction,"Multiply 12 by 5.
+Answer:",Multiply,2,5,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,9,8,add,0,symbolic,"Calculate 9 + 8.
+Answer:",Ġ+,9,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,9,8,add,0,noun_question,"What is the sum of 9 and 8?
+Answer:",Ġsum,9,8,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 9, 'answer_marker': 12}"
+test,9,8,add,0,verb_instruction,"Add 9 and 8.
+Answer:",Add,9,8,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,9,8,multiply,1,symbolic,"Calculate 9 × 8.
+Answer:",ĠÃĹ,9,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,9,8,multiply,1,noun_question,"What is the product of 9 and 8?
+Answer:",Ġproduct,9,8,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 9, 'answer_marker': 12}"
+test,9,8,multiply,1,verb_instruction,"Multiply 9 by 8.
+Answer:",Multiply,9,8,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,6,14,add,0,symbolic,"Calculate 6 + 14.
+Answer:",Ġ+,6,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,6,14,add,0,noun_question,"What is the sum of 6 and 14?
+Answer:",Ġsum,6,4,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,6,14,add,0,verb_instruction,"Add 6 and 14.
+Answer:",Add,6,4,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,6,14,multiply,1,symbolic,"Calculate 6 × 14.
+Answer:",ĠÃĹ,6,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,6,14,multiply,1,noun_question,"What is the product of 6 and 14?
+Answer:",Ġproduct,6,4,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,6,14,multiply,1,verb_instruction,"Multiply 6 by 14.
+Answer:",Multiply,6,4,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,17,12,add,0,symbolic,"Calculate 17 + 12.
+Answer:",Ġ+,7,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,17,12,add,0,noun_question,"What is the sum of 17 and 12?
+Answer:",Ġsum,7,2,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,17,12,add,0,verb_instruction,"Add 17 and 12.
+Answer:",Add,7,2,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,17,12,multiply,1,symbolic,"Calculate 17 × 12.
+Answer:",ĠÃĹ,7,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,17,12,multiply,1,noun_question,"What is the product of 17 and 12?
+Answer:",Ġproduct,7,2,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,17,12,multiply,1,verb_instruction,"Multiply 17 by 12.
+Answer:",Multiply,7,2,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,11,13,add,0,symbolic,"Calculate 11 + 13.
+Answer:",Ġ+,1,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,11,13,add,0,noun_question,"What is the sum of 11 and 13?
+Answer:",Ġsum,1,3,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,11,13,add,0,verb_instruction,"Add 11 and 13.
+Answer:",Add,1,3,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,11,13,multiply,1,symbolic,"Calculate 11 × 13.
+Answer:",ĠÃĹ,1,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,11,13,multiply,1,noun_question,"What is the product of 11 and 13?
+Answer:",Ġproduct,1,3,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,11,13,multiply,1,verb_instruction,"Multiply 11 by 13.
+Answer:",Multiply,1,3,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,10,14,add,0,symbolic,"Calculate 10 + 14.
+Answer:",Ġ+,0,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,10,14,add,0,noun_question,"What is the sum of 10 and 14?
+Answer:",Ġsum,0,4,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,10,14,add,0,verb_instruction,"Add 10 and 14.
+Answer:",Add,0,4,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,10,14,multiply,1,symbolic,"Calculate 10 × 14.
+Answer:",ĠÃĹ,0,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,10,14,multiply,1,noun_question,"What is the product of 10 and 14?
+Answer:",Ġproduct,0,4,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,10,14,multiply,1,verb_instruction,"Multiply 10 by 14.
+Answer:",Multiply,0,4,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,19,6,add,0,symbolic,"Calculate 19 + 6.
+Answer:",Ġ+,9,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,19,6,add,0,noun_question,"What is the sum of 19 and 6?
+Answer:",Ġsum,9,6,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 10, 'answer_marker': 13}"
+test,19,6,add,0,verb_instruction,"Add 19 and 6.
+Answer:",Add,9,6,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,19,6,multiply,1,symbolic,"Calculate 19 × 6.
+Answer:",ĠÃĹ,9,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,19,6,multiply,1,noun_question,"What is the product of 19 and 6?
+Answer:",Ġproduct,9,6,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 10, 'answer_marker': 13}"
+test,19,6,multiply,1,verb_instruction,"Multiply 19 by 6.
+Answer:",Multiply,9,6,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,19,10,add,0,symbolic,"Calculate 19 + 10.
+Answer:",Ġ+,9,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,19,10,add,0,noun_question,"What is the sum of 19 and 10?
+Answer:",Ġsum,9,0,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,19,10,add,0,verb_instruction,"Add 19 and 10.
+Answer:",Add,9,0,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,19,10,multiply,1,symbolic,"Calculate 19 × 10.
+Answer:",ĠÃĹ,9,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,19,10,multiply,1,noun_question,"What is the product of 19 and 10?
+Answer:",Ġproduct,9,0,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,19,10,multiply,1,verb_instruction,"Multiply 19 by 10.
+Answer:",Multiply,9,0,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,4,13,add,0,symbolic,"Calculate 4 + 13.
+Answer:",Ġ+,4,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,4,13,add,0,noun_question,"What is the sum of 4 and 13?
+Answer:",Ġsum,4,3,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,4,13,add,0,verb_instruction,"Add 4 and 13.
+Answer:",Add,4,3,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,4,13,multiply,1,symbolic,"Calculate 4 × 13.
+Answer:",ĠÃĹ,4,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,4,13,multiply,1,noun_question,"What is the product of 4 and 13?
+Answer:",Ġproduct,4,3,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,4,13,multiply,1,verb_instruction,"Multiply 4 by 13.
+Answer:",Multiply,4,3,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,19,7,add,0,symbolic,"Calculate 19 + 7.
+Answer:",Ġ+,9,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,19,7,add,0,noun_question,"What is the sum of 19 and 7?
+Answer:",Ġsum,9,7,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 10, 'answer_marker': 13}"
+test,19,7,add,0,verb_instruction,"Add 19 and 7.
+Answer:",Add,9,7,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,19,7,multiply,1,symbolic,"Calculate 19 × 7.
+Answer:",ĠÃĹ,9,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,19,7,multiply,1,noun_question,"What is the product of 19 and 7?
+Answer:",Ġproduct,9,7,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 10, 'answer_marker': 13}"
+test,19,7,multiply,1,verb_instruction,"Multiply 19 by 7.
+Answer:",Multiply,9,7,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,17,11,add,0,symbolic,"Calculate 17 + 11.
+Answer:",Ġ+,7,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,17,11,add,0,noun_question,"What is the sum of 17 and 11?
+Answer:",Ġsum,7,1,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,17,11,add,0,verb_instruction,"Add 17 and 11.
+Answer:",Add,7,1,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,17,11,multiply,1,symbolic,"Calculate 17 × 11.
+Answer:",ĠÃĹ,7,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,17,11,multiply,1,noun_question,"What is the product of 17 and 11?
+Answer:",Ġproduct,7,1,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,17,11,multiply,1,verb_instruction,"Multiply 17 by 11.
+Answer:",Multiply,7,1,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,16,14,add,0,symbolic,"Calculate 16 + 14.
+Answer:",Ġ+,6,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,16,14,add,0,noun_question,"What is the sum of 16 and 14?
+Answer:",Ġsum,6,4,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,16,14,add,0,verb_instruction,"Add 16 and 14.
+Answer:",Add,6,4,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,16,14,multiply,1,symbolic,"Calculate 16 × 14.
+Answer:",ĠÃĹ,6,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,16,14,multiply,1,noun_question,"What is the product of 16 and 14?
+Answer:",Ġproduct,6,4,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,16,14,multiply,1,verb_instruction,"Multiply 16 by 14.
+Answer:",Multiply,6,4,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,10,13,add,0,symbolic,"Calculate 10 + 13.
+Answer:",Ġ+,0,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,10,13,add,0,noun_question,"What is the sum of 10 and 13?
+Answer:",Ġsum,0,3,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,10,13,add,0,verb_instruction,"Add 10 and 13.
+Answer:",Add,0,3,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,10,13,multiply,1,symbolic,"Calculate 10 × 13.
+Answer:",ĠÃĹ,0,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,10,13,multiply,1,noun_question,"What is the product of 10 and 13?
+Answer:",Ġproduct,0,3,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,10,13,multiply,1,verb_instruction,"Multiply 10 by 13.
+Answer:",Multiply,0,3,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,4,16,add,0,symbolic,"Calculate 4 + 16.
+Answer:",Ġ+,4,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,4,16,add,0,noun_question,"What is the sum of 4 and 16?
+Answer:",Ġsum,4,6,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,4,16,add,0,verb_instruction,"Add 4 and 16.
+Answer:",Add,4,6,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,4,16,multiply,1,symbolic,"Calculate 4 × 16.
+Answer:",ĠÃĹ,4,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,4,16,multiply,1,noun_question,"What is the product of 4 and 16?
+Answer:",Ġproduct,4,6,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,4,16,multiply,1,verb_instruction,"Multiply 4 by 16.
+Answer:",Multiply,4,6,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,4,3,add,0,symbolic,"Calculate 4 + 3.
+Answer:",Ġ+,4,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,4,3,add,0,noun_question,"What is the sum of 4 and 3?
+Answer:",Ġsum,4,3,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 9, 'answer_marker': 12}"
+test,4,3,add,0,verb_instruction,"Add 4 and 3.
+Answer:",Add,4,3,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,4,3,multiply,1,symbolic,"Calculate 4 × 3.
+Answer:",ĠÃĹ,4,3,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,4,3,multiply,1,noun_question,"What is the product of 4 and 3?
+Answer:",Ġproduct,4,3,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 9, 'answer_marker': 12}"
+test,4,3,multiply,1,verb_instruction,"Multiply 4 by 3.
+Answer:",Multiply,4,3,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,6,7,add,0,symbolic,"Calculate 6 + 7.
+Answer:",Ġ+,6,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,6,7,add,0,noun_question,"What is the sum of 6 and 7?
+Answer:",Ġsum,6,7,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 9, 'answer_marker': 12}"
+test,6,7,add,0,verb_instruction,"Add 6 and 7.
+Answer:",Add,6,7,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,6,7,multiply,1,symbolic,"Calculate 6 × 7.
+Answer:",ĠÃĹ,6,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,6,7,multiply,1,noun_question,"What is the product of 6 and 7?
+Answer:",Ġproduct,6,7,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 9, 'answer_marker': 12}"
+test,6,7,multiply,1,verb_instruction,"Multiply 6 by 7.
+Answer:",Multiply,6,7,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,16,15,add,0,symbolic,"Calculate 16 + 15.
+Answer:",Ġ+,6,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,16,15,add,0,noun_question,"What is the sum of 16 and 15?
+Answer:",Ġsum,6,5,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,16,15,add,0,verb_instruction,"Add 16 and 15.
+Answer:",Add,6,5,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,16,15,multiply,1,symbolic,"Calculate 16 × 15.
+Answer:",ĠÃĹ,6,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,16,15,multiply,1,noun_question,"What is the product of 16 and 15?
+Answer:",Ġproduct,6,5,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,16,15,multiply,1,verb_instruction,"Multiply 16 by 15.
+Answer:",Multiply,6,5,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,20,16,add,0,symbolic,"Calculate 20 + 16.
+Answer:",Ġ+,0,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,20,16,add,0,noun_question,"What is the sum of 20 and 16?
+Answer:",Ġsum,0,6,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,20,16,add,0,verb_instruction,"Add 20 and 16.
+Answer:",Add,0,6,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,20,16,multiply,1,symbolic,"Calculate 20 × 16.
+Answer:",ĠÃĹ,0,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,20,16,multiply,1,noun_question,"What is the product of 20 and 16?
+Answer:",Ġproduct,0,6,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,20,16,multiply,1,verb_instruction,"Multiply 20 by 16.
+Answer:",Multiply,0,6,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,6,5,add,0,symbolic,"Calculate 6 + 5.
+Answer:",Ġ+,6,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,6,5,add,0,noun_question,"What is the sum of 6 and 5?
+Answer:",Ġsum,6,5,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 9, 'answer_marker': 12}"
+test,6,5,add,0,verb_instruction,"Add 6 and 5.
+Answer:",Add,6,5,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,6,5,multiply,1,symbolic,"Calculate 6 × 5.
+Answer:",ĠÃĹ,6,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,6,5,multiply,1,noun_question,"What is the product of 6 and 5?
+Answer:",Ġproduct,6,5,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 9, 'answer_marker': 12}"
+test,6,5,multiply,1,verb_instruction,"Multiply 6 by 5.
+Answer:",Multiply,6,5,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,18,16,add,0,symbolic,"Calculate 18 + 16.
+Answer:",Ġ+,8,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,18,16,add,0,noun_question,"What is the sum of 18 and 16?
+Answer:",Ġsum,8,6,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,18,16,add,0,verb_instruction,"Add 18 and 16.
+Answer:",Add,8,6,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,18,16,multiply,1,symbolic,"Calculate 18 × 16.
+Answer:",ĠÃĹ,8,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,18,16,multiply,1,noun_question,"What is the product of 18 and 16?
+Answer:",Ġproduct,8,6,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,18,16,multiply,1,verb_instruction,"Multiply 18 by 16.
+Answer:",Multiply,8,6,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,17,9,add,0,symbolic,"Calculate 17 + 9.
+Answer:",Ġ+,7,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,17,9,add,0,noun_question,"What is the sum of 17 and 9?
+Answer:",Ġsum,7,9,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 10, 'answer_marker': 13}"
+test,17,9,add,0,verb_instruction,"Add 17 and 9.
+Answer:",Add,7,9,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,17,9,multiply,1,symbolic,"Calculate 17 × 9.
+Answer:",ĠÃĹ,7,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,17,9,multiply,1,noun_question,"What is the product of 17 and 9?
+Answer:",Ġproduct,7,9,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 10, 'answer_marker': 13}"
+test,17,9,multiply,1,verb_instruction,"Multiply 17 by 9.
+Answer:",Multiply,7,9,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,17,10,add,0,symbolic,"Calculate 17 + 10.
+Answer:",Ġ+,7,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,17,10,add,0,noun_question,"What is the sum of 17 and 10?
+Answer:",Ġsum,7,0,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,17,10,add,0,verb_instruction,"Add 17 and 10.
+Answer:",Add,7,0,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,17,10,multiply,1,symbolic,"Calculate 17 × 10.
+Answer:",ĠÃĹ,7,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,17,10,multiply,1,noun_question,"What is the product of 17 and 10?
+Answer:",Ġproduct,7,0,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,17,10,multiply,1,verb_instruction,"Multiply 17 by 10.
+Answer:",Multiply,7,0,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,13,11,add,0,symbolic,"Calculate 13 + 11.
+Answer:",Ġ+,3,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,13,11,add,0,noun_question,"What is the sum of 13 and 11?
+Answer:",Ġsum,3,1,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,13,11,add,0,verb_instruction,"Add 13 and 11.
+Answer:",Add,3,1,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,13,11,multiply,1,symbolic,"Calculate 13 × 11.
+Answer:",ĠÃĹ,3,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,13,11,multiply,1,noun_question,"What is the product of 13 and 11?
+Answer:",Ġproduct,3,1,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,13,11,multiply,1,verb_instruction,"Multiply 13 by 11.
+Answer:",Multiply,3,1,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,10,11,add,0,symbolic,"Calculate 10 + 11.
+Answer:",Ġ+,0,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,10,11,add,0,noun_question,"What is the sum of 10 and 11?
+Answer:",Ġsum,0,1,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,10,11,add,0,verb_instruction,"Add 10 and 11.
+Answer:",Add,0,1,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,10,11,multiply,1,symbolic,"Calculate 10 × 11.
+Answer:",ĠÃĹ,0,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,10,11,multiply,1,noun_question,"What is the product of 10 and 11?
+Answer:",Ġproduct,0,1,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,10,11,multiply,1,verb_instruction,"Multiply 10 by 11.
+Answer:",Multiply,0,1,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,9,21,add,0,symbolic,"Calculate 9 + 21.
+Answer:",Ġ+,9,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,9,21,add,0,noun_question,"What is the sum of 9 and 21?
+Answer:",Ġsum,9,1,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,9,21,add,0,verb_instruction,"Add 9 and 21.
+Answer:",Add,9,1,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,9,21,multiply,1,symbolic,"Calculate 9 × 21.
+Answer:",ĠÃĹ,9,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,9,21,multiply,1,noun_question,"What is the product of 9 and 21?
+Answer:",Ġproduct,9,1,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,9,21,multiply,1,verb_instruction,"Multiply 9 by 21.
+Answer:",Multiply,9,1,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,15,17,add,0,symbolic,"Calculate 15 + 17.
+Answer:",Ġ+,5,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,15,17,add,0,noun_question,"What is the sum of 15 and 17?
+Answer:",Ġsum,5,7,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,15,17,add,0,verb_instruction,"Add 15 and 17.
+Answer:",Add,5,7,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,15,17,multiply,1,symbolic,"Calculate 15 × 17.
+Answer:",ĠÃĹ,5,7,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,15,17,multiply,1,noun_question,"What is the product of 15 and 17?
+Answer:",Ġproduct,5,7,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,15,17,multiply,1,verb_instruction,"Multiply 15 by 17.
+Answer:",Multiply,5,7,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,18,9,add,0,symbolic,"Calculate 18 + 9.
+Answer:",Ġ+,8,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,18,9,add,0,noun_question,"What is the sum of 18 and 9?
+Answer:",Ġsum,8,9,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 10, 'answer_marker': 13}"
+test,18,9,add,0,verb_instruction,"Add 18 and 9.
+Answer:",Add,8,9,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,18,9,multiply,1,symbolic,"Calculate 18 × 9.
+Answer:",ĠÃĹ,8,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,18,9,multiply,1,noun_question,"What is the product of 18 and 9?
+Answer:",Ġproduct,8,9,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 10, 'answer_marker': 13}"
+test,18,9,multiply,1,verb_instruction,"Multiply 18 by 9.
+Answer:",Multiply,8,9,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,7,11,add,0,symbolic,"Calculate 7 + 11.
+Answer:",Ġ+,7,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,7,11,add,0,noun_question,"What is the sum of 7 and 11?
+Answer:",Ġsum,7,1,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,7,11,add,0,verb_instruction,"Add 7 and 11.
+Answer:",Add,7,1,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,7,11,multiply,1,symbolic,"Calculate 7 × 11.
+Answer:",ĠÃĹ,7,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,7,11,multiply,1,noun_question,"What is the product of 7 and 11?
+Answer:",Ġproduct,7,1,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,7,11,multiply,1,verb_instruction,"Multiply 7 by 11.
+Answer:",Multiply,7,1,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,6,20,add,0,symbolic,"Calculate 6 + 20.
+Answer:",Ġ+,6,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,6,20,add,0,noun_question,"What is the sum of 6 and 20?
+Answer:",Ġsum,6,0,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,6,20,add,0,verb_instruction,"Add 6 and 20.
+Answer:",Add,6,0,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,6,20,multiply,1,symbolic,"Calculate 6 × 20.
+Answer:",ĠÃĹ,6,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,6,20,multiply,1,noun_question,"What is the product of 6 and 20?
+Answer:",Ġproduct,6,0,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,6,20,multiply,1,verb_instruction,"Multiply 6 by 20.
+Answer:",Multiply,6,0,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,5,20,add,0,symbolic,"Calculate 5 + 20.
+Answer:",Ġ+,5,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,5,20,add,0,noun_question,"What is the sum of 5 and 20?
+Answer:",Ġsum,5,0,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,5,20,add,0,verb_instruction,"Add 5 and 20.
+Answer:",Add,5,0,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,5,20,multiply,1,symbolic,"Calculate 5 × 20.
+Answer:",ĠÃĹ,5,0,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,5,20,multiply,1,noun_question,"What is the product of 5 and 20?
+Answer:",Ġproduct,5,0,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,5,20,multiply,1,verb_instruction,"Multiply 5 by 20.
+Answer:",Multiply,5,0,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,14,13,add,0,symbolic,"Calculate 14 + 13.
+Answer:",Ġ+,4,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,14,13,add,0,noun_question,"What is the sum of 14 and 13?
+Answer:",Ġsum,4,3,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,14,13,add,0,verb_instruction,"Add 14 and 13.
+Answer:",Add,4,3,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,14,13,multiply,1,symbolic,"Calculate 14 × 13.
+Answer:",ĠÃĹ,4,3,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,14,13,multiply,1,noun_question,"What is the product of 14 and 13?
+Answer:",Ġproduct,4,3,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,14,13,multiply,1,verb_instruction,"Multiply 14 by 13.
+Answer:",Multiply,4,3,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,10,21,add,0,symbolic,"Calculate 10 + 21.
+Answer:",Ġ+,0,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,10,21,add,0,noun_question,"What is the sum of 10 and 21?
+Answer:",Ġsum,0,1,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,10,21,add,0,verb_instruction,"Add 10 and 21.
+Answer:",Add,0,1,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,10,21,multiply,1,symbolic,"Calculate 10 × 21.
+Answer:",ĠÃĹ,0,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,10,21,multiply,1,noun_question,"What is the product of 10 and 21?
+Answer:",Ġproduct,0,1,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,10,21,multiply,1,verb_instruction,"Multiply 10 by 21.
+Answer:",Multiply,0,1,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,2,7,add,0,symbolic,"Calculate 2 + 7.
+Answer:",Ġ+,2,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,2,7,add,0,noun_question,"What is the sum of 2 and 7?
+Answer:",Ġsum,2,7,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 9, 'answer_marker': 12}"
+test,2,7,add,0,verb_instruction,"Add 2 and 7.
+Answer:",Add,2,7,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,2,7,multiply,1,symbolic,"Calculate 2 × 7.
+Answer:",ĠÃĹ,2,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,2,7,multiply,1,noun_question,"What is the product of 2 and 7?
+Answer:",Ġproduct,2,7,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 9, 'answer_marker': 12}"
+test,2,7,multiply,1,verb_instruction,"Multiply 2 by 7.
+Answer:",Multiply,2,7,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,7,2,add,0,symbolic,"Calculate 7 + 2.
+Answer:",Ġ+,7,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,7,2,add,0,noun_question,"What is the sum of 7 and 2?
+Answer:",Ġsum,7,2,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 9, 'answer_marker': 12}"
+test,7,2,add,0,verb_instruction,"Add 7 and 2.
+Answer:",Add,7,2,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,7,2,multiply,1,symbolic,"Calculate 7 × 2.
+Answer:",ĠÃĹ,7,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,7,2,multiply,1,noun_question,"What is the product of 7 and 2?
+Answer:",Ġproduct,7,2,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 9, 'answer_marker': 12}"
+test,7,2,multiply,1,verb_instruction,"Multiply 7 by 2.
+Answer:",Multiply,7,2,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,18,2,add,0,symbolic,"Calculate 18 + 2.
+Answer:",Ġ+,8,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,18,2,add,0,noun_question,"What is the sum of 18 and 2?
+Answer:",Ġsum,8,2,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 10, 'answer_marker': 13}"
+test,18,2,add,0,verb_instruction,"Add 18 and 2.
+Answer:",Add,8,2,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,18,2,multiply,1,symbolic,"Calculate 18 × 2.
+Answer:",ĠÃĹ,8,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,18,2,multiply,1,noun_question,"What is the product of 18 and 2?
+Answer:",Ġproduct,8,2,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 10, 'answer_marker': 13}"
+test,18,2,multiply,1,verb_instruction,"Multiply 18 by 2.
+Answer:",Multiply,8,2,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,9,12,add,0,symbolic,"Calculate 9 + 12.
+Answer:",Ġ+,9,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,9,12,add,0,noun_question,"What is the sum of 9 and 12?
+Answer:",Ġsum,9,2,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,9,12,add,0,verb_instruction,"Add 9 and 12.
+Answer:",Add,9,2,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,9,12,multiply,1,symbolic,"Calculate 9 × 12.
+Answer:",ĠÃĹ,9,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,9,12,multiply,1,noun_question,"What is the product of 9 and 12?
+Answer:",Ġproduct,9,2,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,9,12,multiply,1,verb_instruction,"Multiply 9 by 12.
+Answer:",Multiply,9,2,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,3,11,add,0,symbolic,"Calculate 3 + 11.
+Answer:",Ġ+,3,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,3,11,add,0,noun_question,"What is the sum of 3 and 11?
+Answer:",Ġsum,3,1,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,3,11,add,0,verb_instruction,"Add 3 and 11.
+Answer:",Add,3,1,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,3,11,multiply,1,symbolic,"Calculate 3 × 11.
+Answer:",ĠÃĹ,3,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,3,11,multiply,1,noun_question,"What is the product of 3 and 11?
+Answer:",Ġproduct,3,1,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,3,11,multiply,1,verb_instruction,"Multiply 3 by 11.
+Answer:",Multiply,3,1,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,15,4,add,0,symbolic,"Calculate 15 + 4.
+Answer:",Ġ+,5,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,15,4,add,0,noun_question,"What is the sum of 15 and 4?
+Answer:",Ġsum,5,4,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 10, 'answer_marker': 13}"
+test,15,4,add,0,verb_instruction,"Add 15 and 4.
+Answer:",Add,5,4,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,15,4,multiply,1,symbolic,"Calculate 15 × 4.
+Answer:",ĠÃĹ,5,4,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,15,4,multiply,1,noun_question,"What is the product of 15 and 4?
+Answer:",Ġproduct,5,4,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 10, 'answer_marker': 13}"
+test,15,4,multiply,1,verb_instruction,"Multiply 15 by 4.
+Answer:",Multiply,5,4,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,11,15,add,0,symbolic,"Calculate 11 + 15.
+Answer:",Ġ+,1,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,11,15,add,0,noun_question,"What is the sum of 11 and 15?
+Answer:",Ġsum,1,5,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,11,15,add,0,verb_instruction,"Add 11 and 15.
+Answer:",Add,1,5,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,11,15,multiply,1,symbolic,"Calculate 11 × 15.
+Answer:",ĠÃĹ,1,5,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,11,15,multiply,1,noun_question,"What is the product of 11 and 15?
+Answer:",Ġproduct,1,5,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,11,15,multiply,1,verb_instruction,"Multiply 11 by 15.
+Answer:",Multiply,1,5,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,14,21,add,0,symbolic,"Calculate 14 + 21.
+Answer:",Ġ+,4,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,14,21,add,0,noun_question,"What is the sum of 14 and 21?
+Answer:",Ġsum,4,1,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,14,21,add,0,verb_instruction,"Add 14 and 21.
+Answer:",Add,4,1,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,14,21,multiply,1,symbolic,"Calculate 14 × 21.
+Answer:",ĠÃĹ,4,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,14,21,multiply,1,noun_question,"What is the product of 14 and 21?
+Answer:",Ġproduct,4,1,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,14,21,multiply,1,verb_instruction,"Multiply 14 by 21.
+Answer:",Multiply,4,1,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,7,17,add,0,symbolic,"Calculate 7 + 17.
+Answer:",Ġ+,7,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,7,17,add,0,noun_question,"What is the sum of 7 and 17?
+Answer:",Ġsum,7,7,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,7,17,add,0,verb_instruction,"Add 7 and 17.
+Answer:",Add,7,7,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,7,17,multiply,1,symbolic,"Calculate 7 × 17.
+Answer:",ĠÃĹ,7,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,7,17,multiply,1,noun_question,"What is the product of 7 and 17?
+Answer:",Ġproduct,7,7,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,7,17,multiply,1,verb_instruction,"Multiply 7 by 17.
+Answer:",Multiply,7,7,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,16,2,add,0,symbolic,"Calculate 16 + 2.
+Answer:",Ġ+,6,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,16,2,add,0,noun_question,"What is the sum of 16 and 2?
+Answer:",Ġsum,6,2,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 10, 'answer_marker': 13}"
+test,16,2,add,0,verb_instruction,"Add 16 and 2.
+Answer:",Add,6,2,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,16,2,multiply,1,symbolic,"Calculate 16 × 2.
+Answer:",ĠÃĹ,6,2,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,16,2,multiply,1,noun_question,"What is the product of 16 and 2?
+Answer:",Ġproduct,6,2,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 10, 'answer_marker': 13}"
+test,16,2,multiply,1,verb_instruction,"Multiply 16 by 2.
+Answer:",Multiply,6,2,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,21,19,add,0,symbolic,"Calculate 21 + 19.
+Answer:",Ġ+,1,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,21,19,add,0,noun_question,"What is the sum of 21 and 19?
+Answer:",Ġsum,1,9,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,21,19,add,0,verb_instruction,"Add 21 and 19.
+Answer:",Add,1,9,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,21,19,multiply,1,symbolic,"Calculate 21 × 19.
+Answer:",ĠÃĹ,1,9,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,21,19,multiply,1,noun_question,"What is the product of 21 and 19?
+Answer:",Ġproduct,1,9,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,21,19,multiply,1,verb_instruction,"Multiply 21 by 19.
+Answer:",Multiply,1,9,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,8,15,add,0,symbolic,"Calculate 8 + 15.
+Answer:",Ġ+,8,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,8,15,add,0,noun_question,"What is the sum of 8 and 15?
+Answer:",Ġsum,8,5,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,8,15,add,0,verb_instruction,"Add 8 and 15.
+Answer:",Add,8,5,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,8,15,multiply,1,symbolic,"Calculate 8 × 15.
+Answer:",ĠÃĹ,8,5,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,8,15,multiply,1,noun_question,"What is the product of 8 and 15?
+Answer:",Ġproduct,8,5,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,8,15,multiply,1,verb_instruction,"Multiply 8 by 15.
+Answer:",Multiply,8,5,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,11,21,add,0,symbolic,"Calculate 11 + 21.
+Answer:",Ġ+,1,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,11,21,add,0,noun_question,"What is the sum of 11 and 21?
+Answer:",Ġsum,1,1,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,11,21,add,0,verb_instruction,"Add 11 and 21.
+Answer:",Add,1,1,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,11,21,multiply,1,symbolic,"Calculate 11 × 21.
+Answer:",ĠÃĹ,1,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,11,21,multiply,1,noun_question,"What is the product of 11 and 21?
+Answer:",Ġproduct,1,1,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,11,21,multiply,1,verb_instruction,"Multiply 11 by 21.
+Answer:",Multiply,1,1,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,9,18,add,0,symbolic,"Calculate 9 + 18.
+Answer:",Ġ+,9,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,9,18,add,0,noun_question,"What is the sum of 9 and 18?
+Answer:",Ġsum,9,8,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,9,18,add,0,verb_instruction,"Add 9 and 18.
+Answer:",Add,9,8,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,9,18,multiply,1,symbolic,"Calculate 9 × 18.
+Answer:",ĠÃĹ,9,8,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,9,18,multiply,1,noun_question,"What is the product of 9 and 18?
+Answer:",Ġproduct,9,8,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,9,18,multiply,1,verb_instruction,"Multiply 9 by 18.
+Answer:",Multiply,9,8,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,16,10,add,0,symbolic,"Calculate 16 + 10.
+Answer:",Ġ+,6,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,16,10,add,0,noun_question,"What is the sum of 16 and 10?
+Answer:",Ġsum,6,0,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,16,10,add,0,verb_instruction,"Add 16 and 10.
+Answer:",Add,6,0,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,16,10,multiply,1,symbolic,"Calculate 16 × 10.
+Answer:",ĠÃĹ,6,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,16,10,multiply,1,noun_question,"What is the product of 16 and 10?
+Answer:",Ġproduct,6,0,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,16,10,multiply,1,verb_instruction,"Multiply 16 by 10.
+Answer:",Multiply,6,0,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,9,14,add,0,symbolic,"Calculate 9 + 14.
+Answer:",Ġ+,9,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,9,14,add,0,noun_question,"What is the sum of 9 and 14?
+Answer:",Ġsum,9,4,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,9,14,add,0,verb_instruction,"Add 9 and 14.
+Answer:",Add,9,4,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,9,14,multiply,1,symbolic,"Calculate 9 × 14.
+Answer:",ĠÃĹ,9,4,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,9,14,multiply,1,noun_question,"What is the product of 9 and 14?
+Answer:",Ġproduct,9,4,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,9,14,multiply,1,verb_instruction,"Multiply 9 by 14.
+Answer:",Multiply,9,4,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,14,20,add,0,symbolic,"Calculate 14 + 20.
+Answer:",Ġ+,4,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,14,20,add,0,noun_question,"What is the sum of 14 and 20?
+Answer:",Ġsum,4,0,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,14,20,add,0,verb_instruction,"Add 14 and 20.
+Answer:",Add,4,0,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,14,20,multiply,1,symbolic,"Calculate 14 × 20.
+Answer:",ĠÃĹ,4,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,14,20,multiply,1,noun_question,"What is the product of 14 and 20?
+Answer:",Ġproduct,4,0,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,14,20,multiply,1,verb_instruction,"Multiply 14 by 20.
+Answer:",Multiply,4,0,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,21,16,add,0,symbolic,"Calculate 21 + 16.
+Answer:",Ġ+,1,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,21,16,add,0,noun_question,"What is the sum of 21 and 16?
+Answer:",Ġsum,1,6,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,21,16,add,0,verb_instruction,"Add 21 and 16.
+Answer:",Add,1,6,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,21,16,multiply,1,symbolic,"Calculate 21 × 16.
+Answer:",ĠÃĹ,1,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,21,16,multiply,1,noun_question,"What is the product of 21 and 16?
+Answer:",Ġproduct,1,6,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,21,16,multiply,1,verb_instruction,"Multiply 21 by 16.
+Answer:",Multiply,1,6,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,16,6,add,0,symbolic,"Calculate 16 + 6.
+Answer:",Ġ+,6,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,16,6,add,0,noun_question,"What is the sum of 16 and 6?
+Answer:",Ġsum,6,6,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 10, 'answer_marker': 13}"
+test,16,6,add,0,verb_instruction,"Add 16 and 6.
+Answer:",Add,6,6,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,16,6,multiply,1,symbolic,"Calculate 16 × 6.
+Answer:",ĠÃĹ,6,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,16,6,multiply,1,noun_question,"What is the product of 16 and 6?
+Answer:",Ġproduct,6,6,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 10, 'answer_marker': 13}"
+test,16,6,multiply,1,verb_instruction,"Multiply 16 by 6.
+Answer:",Multiply,6,6,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,18,6,add,0,symbolic,"Calculate 18 + 6.
+Answer:",Ġ+,8,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,18,6,add,0,noun_question,"What is the sum of 18 and 6?
+Answer:",Ġsum,8,6,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 10, 'answer_marker': 13}"
+test,18,6,add,0,verb_instruction,"Add 18 and 6.
+Answer:",Add,8,6,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,18,6,multiply,1,symbolic,"Calculate 18 × 6.
+Answer:",ĠÃĹ,8,6,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,18,6,multiply,1,noun_question,"What is the product of 18 and 6?
+Answer:",Ġproduct,8,6,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 10, 'answer_marker': 13}"
+test,18,6,multiply,1,verb_instruction,"Multiply 18 by 6.
+Answer:",Multiply,8,6,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,9,16,add,0,symbolic,"Calculate 9 + 16.
+Answer:",Ġ+,9,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,9,16,add,0,noun_question,"What is the sum of 9 and 16?
+Answer:",Ġsum,9,6,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,9,16,add,0,verb_instruction,"Add 9 and 16.
+Answer:",Add,9,6,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,9,16,multiply,1,symbolic,"Calculate 9 × 16.
+Answer:",ĠÃĹ,9,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,9,16,multiply,1,noun_question,"What is the product of 9 and 16?
+Answer:",Ġproduct,9,6,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,9,16,multiply,1,verb_instruction,"Multiply 9 by 16.
+Answer:",Multiply,9,6,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,2,21,add,0,symbolic,"Calculate 2 + 21.
+Answer:",Ġ+,2,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,2,21,add,0,noun_question,"What is the sum of 2 and 21?
+Answer:",Ġsum,2,1,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,2,21,add,0,verb_instruction,"Add 2 and 21.
+Answer:",Add,2,1,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,2,21,multiply,1,symbolic,"Calculate 2 × 21.
+Answer:",ĠÃĹ,2,1,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,2,21,multiply,1,noun_question,"What is the product of 2 and 21?
+Answer:",Ġproduct,2,1,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 10, 'answer_marker': 13}"
+test,2,21,multiply,1,verb_instruction,"Multiply 2 by 21.
+Answer:",Multiply,2,1,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 6, 'answer_marker': 9}"
+test,17,21,add,0,symbolic,"Calculate 17 + 21.
+Answer:",Ġ+,7,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,17,21,add,0,noun_question,"What is the sum of 17 and 21?
+Answer:",Ġsum,7,1,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,17,21,add,0,verb_instruction,"Add 17 and 21.
+Answer:",Add,7,1,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,17,21,multiply,1,symbolic,"Calculate 17 × 21.
+Answer:",ĠÃĹ,7,1,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,17,21,multiply,1,noun_question,"What is the product of 17 and 21?
+Answer:",Ġproduct,7,1,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,17,21,multiply,1,verb_instruction,"Multiply 17 by 21.
+Answer:",Multiply,7,1,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,9,7,add,0,symbolic,"Calculate 9 + 7.
+Answer:",Ġ+,9,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,9,7,add,0,noun_question,"What is the sum of 9 and 7?
+Answer:",Ġsum,9,7,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 9, 'answer_marker': 12}"
+test,9,7,add,0,verb_instruction,"Add 9 and 7.
+Answer:",Add,9,7,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,9,7,multiply,1,symbolic,"Calculate 9 × 7.
+Answer:",ĠÃĹ,9,7,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,9,7,multiply,1,noun_question,"What is the product of 9 and 7?
+Answer:",Ġproduct,9,7,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 9, 'answer_marker': 12}"
+test,9,7,multiply,1,verb_instruction,"Multiply 9 by 7.
+Answer:",Multiply,9,7,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,18,10,add,0,symbolic,"Calculate 18 + 10.
+Answer:",Ġ+,8,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,18,10,add,0,noun_question,"What is the sum of 18 and 10?
+Answer:",Ġsum,8,0,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,18,10,add,0,verb_instruction,"Add 18 and 10.
+Answer:",Add,8,0,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,18,10,multiply,1,symbolic,"Calculate 18 × 10.
+Answer:",ĠÃĹ,8,0,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,18,10,multiply,1,noun_question,"What is the product of 18 and 10?
+Answer:",Ġproduct,8,0,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,18,10,multiply,1,verb_instruction,"Multiply 18 by 10.
+Answer:",Multiply,8,0,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,17,8,add,0,symbolic,"Calculate 17 + 8.
+Answer:",Ġ+,7,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,17,8,add,0,noun_question,"What is the sum of 17 and 8?
+Answer:",Ġsum,7,8,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 10, 'answer_marker': 13}"
+test,17,8,add,0,verb_instruction,"Add 17 and 8.
+Answer:",Add,7,8,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,17,8,multiply,1,symbolic,"Calculate 17 × 8.
+Answer:",ĠÃĹ,7,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,17,8,multiply,1,noun_question,"What is the product of 17 and 8?
+Answer:",Ġproduct,7,8,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 10, 'answer_marker': 13}"
+test,17,8,multiply,1,verb_instruction,"Multiply 17 by 8.
+Answer:",Multiply,7,8,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 6, 'answer_marker': 9}"
+test,19,18,add,0,symbolic,"Calculate 19 + 18.
+Answer:",Ġ+,9,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,19,18,add,0,noun_question,"What is the sum of 19 and 18?
+Answer:",Ġsum,9,8,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,19,18,add,0,verb_instruction,"Add 19 and 18.
+Answer:",Add,9,8,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,19,18,multiply,1,symbolic,"Calculate 19 × 18.
+Answer:",ĠÃĹ,9,8,"{'operation_cue': 4, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,19,18,multiply,1,noun_question,"What is the product of 19 and 18?
+Answer:",Ġproduct,9,8,"{'operation_cue': 3, 'operand_a': 7, 'operand_b': 11, 'answer_marker': 14}"
+test,19,18,multiply,1,verb_instruction,"Multiply 19 by 18.
+Answer:",Multiply,9,8,"{'operation_cue': 0, 'operand_a': 3, 'operand_b': 7, 'answer_marker': 10}"
+test,4,2,add,0,symbolic,"Calculate 4 + 2.
+Answer:",Ġ+,4,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,4,2,add,0,noun_question,"What is the sum of 4 and 2?
+Answer:",Ġsum,4,2,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 9, 'answer_marker': 12}"
+test,4,2,add,0,verb_instruction,"Add 4 and 2.
+Answer:",Add,4,2,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,4,2,multiply,1,symbolic,"Calculate 4 × 2.
+Answer:",ĠÃĹ,4,2,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,4,2,multiply,1,noun_question,"What is the product of 4 and 2?
+Answer:",Ġproduct,4,2,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 9, 'answer_marker': 12}"
+test,4,2,multiply,1,verb_instruction,"Multiply 4 by 2.
+Answer:",Multiply,4,2,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,4,6,add,0,symbolic,"Calculate 4 + 6.
+Answer:",Ġ+,4,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,4,6,add,0,noun_question,"What is the sum of 4 and 6?
+Answer:",Ġsum,4,6,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 9, 'answer_marker': 12}"
+test,4,6,add,0,verb_instruction,"Add 4 and 6.
+Answer:",Add,4,6,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,4,6,multiply,1,symbolic,"Calculate 4 × 6.
+Answer:",ĠÃĹ,4,6,"{'operation_cue': 3, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
+test,4,6,multiply,1,noun_question,"What is the product of 4 and 6?
+Answer:",Ġproduct,4,6,"{'operation_cue': 3, 'operand_a': 6, 'operand_b': 9, 'answer_marker': 12}"
+test,4,6,multiply,1,verb_instruction,"Multiply 4 by 6.
+Answer:",Multiply,4,6,"{'operation_cue': 0, 'operand_a': 2, 'operand_b': 5, 'answer_marker': 8}"
